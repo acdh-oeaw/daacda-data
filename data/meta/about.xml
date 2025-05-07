@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">About the project</title>
+                <title type="sub">Downed Allied Air Crew Database Austria</title>
+                <funder>
+                    <orgName key="https://d-nb.info/gnd/1090414722">
+                        Österreichische Akademie der Wissenschaften
+                    </orgName>
+                </funder>
+                <respStmt>
+                    <resp>Projektleitung, Datenerhebung</resp>
+                    <persName key="https://d-nb.info/gnd/143373765">
+                        <forename>Georg</forename>
+                        <surname>Hoffmann</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenerhebung</resp>
+                    <persName key="https://d-nb.info/gnd/143174754">
+                        <forename>Nicole-Melanie</forename>
+                        <surname>Goll</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenkuratierung</resp>
+                    <persName key="https://orcid.org/0000-0001-7081-2280">
+                        <forename>Martin</forename>
+                        <surname>Kirnbauer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung, Aufsetzen einer Datenbankapplikation zur
+                        Datenerhebung und Datenkonvertierung nach TEI</resp>
+                    <persName key="https://d-nb.info/gnd/1043833846">
+                        <forename>Peter</forename>
+                        <surname>Andorfer</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>
+                    <persName key="https://d-nb.info/gnd/143373765">
+                        <forename>Georg</forename>
+                        <surname>Hoffmann</surname>
+                    </persName>
+                </authority>
+                <availability>
+                    <licence target="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0/">CC-BY
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>
+                Der vorliegende Datensatz wurde von Georg Hoffmann, Nicole-Melanie Goll sowie
+                Martin Kirnbauer erhoben und mittels einer von Peter Andorfer entwickelten
+                Python/Django Web-Applikation in das vorliegende TEI Dokument transformiert. Die
+                in diesem TEI Dokument präsentierten Daten basieren vornehmlich aus dem
+                Archivbestand National Archives and Records Administration College Park NARA,
+                Record Group 92 und wurden ergänzt mit Quellen aus dem Bestand NARA, Record
+                Groups 18, 153, 242, 498, 549 sowie The National Archives Kew TNA, AIR 10, 20,
+                23, 49 sowie WO 204, 219
+            </ab>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Inhalt</head>
+                <p>Am 13. August 1943 starteten rund 83 Flugzeuge des US-amerikanischen IX Bomber Command in Libyen. Sie waren Teil der sogenannten „Operation Juggler“, die die Flugzeugwerke in Wiener Neustadt zum Ziel hatten. Der Verband konnte von der deutschen Luftverteidigung ungehindert in das Zielgebiet fliegen und seine Bombenlast abwerfen.</p>
+                <p>Dieser US-amerikanische Luftangriff war der erste von hunderten nachfolgenden auf Ziele im heutigen Österreich. Bis 1943 war es zwar zu Überflügen alliierter Bomberverbände gekommen, die Ziele im „Altreich“ ins Visier nahmen, aber erst mit der Eroberung Süditaliens rückten die Alpen- und Donaureichsgaue in den Fokus der Alliierten. Im September 1943 hatten alliierte Truppen den Raum Foggia befreit. Rasch wurden Flugfelder eingerichtet, von denen die neu aufgestellte 15th USAAF operieren sollte. Damit erreichte der alliierte Luftkrieg auch den Süden des Deutschen Reiches. Hier sollte die Deutsche Luftwaffe und ihre rüstungswirtschaftliche Basis zerschlagen, Kommunikations- und Transportwege unterbrochen werden. Damit etablierte sich an der „Südfront“ des Deutschen Reiches ein neuer „Luft“-Kriegsschauplatz, der gänzlich anders ausgeformt sein sollte, wie im restlichen Deutschen Reich. Getragen wurde dieser vor allem von der USAAF. Im Dezember 1943 wurde im italienischen Cerignola auch die britische No. 205 (Heavy Bomber) Group RAF stationiert, die jedoch zahlenmäßig hinter der 15th USAAF blieb und in ihren Nachtangriffen bald auch nicht mehr über den Alpenhauptkamm einflog. </p>
+                <p>Die ab 1944 beinahe täglich einsetzenden alliierten Luftangriffe zielten auf die Niederwerfung des NS-Regimes. Militärisch konnte das Deutsche Reich den einfliegenden Bomberverbänden schon bald wenig entgegensetzen, weshalb als Gegenmittel verstärkt die NS-Propaganda zum Einsatz kam. </p>
+                <p>Die Einsätze forderten auch unter den Bomberbesatzungen hohe Verluste. Nach 1945 begaben sich alliierte Behörden auf die Suche nach vermissten Angehörigen ihrer Streitkräfte – eine Suche, die oftmals bis heute anhält. </p>
+            </div>
+            <div>
+                <head>Zielsetzung und Quellenlage</head>
+                <p>Ziel des Projektes ist es, alle über dem Gebiet der ehemaligen „Ostmark“ bzw. der Alpen- und Donau-Reichsgaue abgeschossenen bzw. abgestürzten Flieger und ihre Besatzungen erstmals zu erfassen und diese Daten der Wissenschaft wie auch der Öffentlichkeit frei zugänglich zu machen. Basis dieses Vorhabens bildet dabei die strukturierte Erfassung und Verknüpfung neu entdeckter Aktenbestände. Anhand von diesen unterschiedlichen Quellenbeständen, die erstmals zusammengeführt werden, kann nun nachgezeichnet werden, welche Stationen einzelne Flieger durchliefen: die Datenbank bietet Informationen zum Absturz, Ort der Gefangennahme bis hin zu den einzelnen Etappen der Kriegsgefangenschaft, Befreiung und Repatriierung. Auch Hinweise zu Gewaltverbrechen an alliierten Fliegern werden in der Applikation erfasst. Zudem werden die daraus gewonnenen Informationen visualisiert wiedergegeben. Die Datenbank bietet zudem die Möglichkeit erstmals eine Aufstellung über Flieger-Kriegsgefangene zu bekommen, die zu einem bestimmten Zeitpunkt an einem bestimmten Ort interniert waren. </p>
+                <p>Als Grundlage dienen Quellen aus US-amerikanischen (etwa dem National Archives, der Library of Congress u.a.), britischen (National Archives Kew Gardens), deutschen (Bundesarchiv/Militärarchiv) und österreichischen Archiven (Bundes-, Gemeindearchive etc.), die erstmals ein umfassendes Bild des alliierten Luftkrieges erlauben. </p>
+            </div>
+        </body>
+    </text>
+</TEI>
