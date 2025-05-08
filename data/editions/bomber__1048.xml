@@ -1,0 +1,185 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/daacda" xml:id="bomber__1048.xml" prev="https://id.acdh.oeaw.ac.at/daacda/data/bomber__1047.xml" next="https://id.acdh.oeaw.ac.at/daacda/data/bomber__1049.xml">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">JP180 (MARC: 205080)</title>
+            <title type="sub">Downed Allied Air Crew Database Austria</title>
+            <funder>
+                <orgName key="https://d-nb.info/gnd/1090414722">
+                    Österreichische Akademie der Wissenschaften
+                </orgName>
+            </funder>
+            <respStmt>
+               <resp>Projektleitung, Datenerhebung</resp>
+               <persName key="https://d-nb.info/gnd/143373765">
+                  <forename>Georg</forename>
+                  <surname>Hoffmann</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenerhebung</resp>
+               <persName key="https://d-nb.info/gnd/143174754">
+                  <forename>Nicole-Melanie</forename>
+                  <surname>Goll</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenkuratierung</resp>
+               <persName key="https://orcid.org/0000-0001-7081-2280">
+                  <forename>Martin</forename>
+                  <surname>Kirnbauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenmodellierung, Aufsetzen einer Datenbankapplikation zur Datenerhebung und Datenkonvertierung nach TEI</resp>
+               <persName key="https://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <persName key="https://d-nb.info/gnd/143373765">
+                  <forename>Georg</forename>
+                  <surname>Hoffmann</surname>
+               </persName>
+            </authority>
+            <availability>
+               <licence target="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0/">CC-BY 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+              <msIdentifier>
+                <institution>
+                  <orgName>National Archives and Records Administration</orgName>
+                  <idno type="VIAF">162565459</idno>
+                </institution>
+                <collection>Record Group 92</collection>
+              <idno>Missing Air Crew Reports No.: 205080</idno></msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+       <ab>
+Der vorliegende Datensatz wurde von Georg Hoffmann, Nicole-Melanie Goll sowie Martin Kirnbauer erhoben und mittels einer von Peter Andorfer entwickelten Python/Django Web-Applikation in das vorliegende TEI Dokument transformiert. Die in diesem TEI Dokument präsentierten Daten basieren vornehmlich aus dem Archivbestand National Archives and Records Administration College Park NARA, Record Group 92 und wurden ergänzt mit Quellen aus dem Bestand NARA, Record Groups 18, 153, 242, 498, 549 sowie The National Archives Kew TNA, AIR 10, 20, 23, 49 sowie WO 204, 219
+</ab>
+     </encodingDesc>
+  <xenoData xml:id="reason_of_crash__13">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/reason_of_crash__13">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/reason_of_crash/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">Flak</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/reason_of_crash/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="plane_type__41">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/plane_type__41">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/plane_type/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">Halifax</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/plane_type/Schema"/>
+  </rdf:Description>
+</xenoData></teiHeader>
+  <text>
+      <body><div type="main"><head>JP180 (MARC: 205080)</head><div xml:id="bomber">
+   <table xml:id="bomber_table">
+      <head xml:id="bomber_table_head">Informationen zum Flugzeug: JP180 (MARC: 205080)</head>
+      <row role="label">
+         <cell role="label"><choice><abbr>MACR-Nr</abbr><expan>The Missing Air Crew Reports No.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugtyp</abbr><expan>The type of the plane.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugnr</abbr><expan>The plane ID.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugname</abbr><expan>The name of the plane.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Staffel</abbr><expan>The squadron the bomber belongs to.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Datum Absturz</abbr><expan>The date of the bomber's crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Absturzursache</abbr><expan>The reason for the bomber's crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Zielort</abbr><expan>The place the bomber targeted.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Absturzort</abbr><expan>The place where the bomber crashed.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Koordinaten der letzten Sichtung</abbr><expan>Coordinates of the site the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Ort</abbr><expan>The city or village the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Land</abbr><expan>The country or county the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Uhrzeit</abbr><expan>Time of the day the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Uhrzeit Absturz</abbr><expan>Time of the crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Kommentar</abbr><expan>Comments.</expan></choice></cell>
+      </row>
+      <row role="data">
+         <cell role="data"><idno>205080</idno></cell>
+         <cell role="data"><rs type="concept" ref="#plane_type__41">Halifax</rs></cell>
+         <cell role="data"><idno>JP180</idno></cell>
+         <cell role="data"><name/></cell>
+         <cell role="data"><rs type="org" ref="#org__1188">Polnish AF 0 1586</rs></cell>
+        <cell role="data"><date when-iso="1944-09-02">1944-09-02</date></cell>
+         <cell role="data"><rs type="concept" ref="#reason_of_crash__13">Flak</rs></cell>
+         <cell role="data"><rs type="place" ref="#place__1144"><placeName>Warszawa</placeName></rs> </cell>
+         <cell role="data"><rs type="place" ref="#place__1193"><placeName>Jaszfenyszaru</placeName></rs> </cell>
+         <cell role="data"><geo/></cell>
+         <cell role="data"><placeName/></cell>
+         <cell role="data"><placeName/></cell>
+         <cell role="data"><time/></cell>
+         <cell role="data"><time/></cell>
+         <cell role="data"/>
+      </row>
+   </table>
+</div><div xml:id="crew">
+  <table xml:id="crew_table">
+    <head xml:id="crew_table_head">Die Crew des Flugzeugs
+      JP180 (MARC: 205080)</head>
+    <row role="label">
+      <cell role="label"><choice><abbr>Interne ID</abbr><expan>Identifier of the legacy database</expan></choice></cell>
+      <cell role="label"><choice><abbr>Kennnummer</abbr><expan>The number identifying the person</expan></choice></cell>
+      <cell role="label"><choice><abbr>Nachname</abbr><expan>The person's second name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Vorname</abbr><expan>The person's first name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Mittelname</abbr><expan>The person's middle name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Funktion im Flugzeug</abbr><expan>The person's function inside the bomber</expan></choice></cell>
+      <cell role="label"><choice><abbr>Dienstgrad</abbr><expan>The person's rank</expan></choice></cell>
+      <cell role="label"><choice><abbr>Eintrag MACR</abbr><expan>The person's stated destiny according to MACR</expan></choice></cell>
+      <cell role="label"><choice><abbr>Schicksal</abbr><expan>The person's checked destiny</expan></choice></cell>
+      <cell role="label"><choice><abbr>Schicksal genau</abbr><expan>The person's MIA status</expan></choice></cell>
+      <cell role="label"><choice><abbr>Stationen der Gefangenschaft</abbr><expan>Institutions and Locations the Person was kept</expan></choice></cell>
+    </row>
+    
+  </table>
+</div></div></body>
+      <back><listPerson/><listPlace><place xml:id="place__1144">
+  <placeName>Warszawa</placeName>
+  
+  <placeName type="alt"/>
+  
+  
+  <location>
+    <geo>52.229770000000 21.011780000000</geo>
+ </location>
+ 
+  
+  <idno subtype="geonames" type="URL">http://www.geonames.org/756135</idno>
+  
+</place><place xml:id="place__1193">
+  <placeName>Jaszfenyszaru</placeName>
+  
+  
+  <location>
+    <geo>47.570190000000 19.724000000000</geo>
+ </location>
+ 
+  
+  <idno subtype="geonames" type="URL">http://www.geonames.org/3050903</idno>
+  
+</place></listPlace><listOrg><org xml:id="org__1188">
+  <orgName>Polnish AF 0 1586</orgName>
+    
+   <orgName type="bomb_group">Polnish AF 0</orgName>
+   
+   
+  <orgName type="airforce">Polnish AF</orgName>
+  
+</org></listOrg></back>
+  </text>
+</TEI>

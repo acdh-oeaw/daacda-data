@@ -1,0 +1,505 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/daacda" xml:id="bomber__1015.xml" prev="https://id.acdh.oeaw.ac.at/daacda/data/bomber__1014.xml" next="https://id.acdh.oeaw.ac.at/daacda/data/bomber__1016.xml">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">MF249 (MARC: 205047)</title>
+            <title type="sub">Downed Allied Air Crew Database Austria</title>
+            <funder>
+                <orgName key="https://d-nb.info/gnd/1090414722">
+                    Österreichische Akademie der Wissenschaften
+                </orgName>
+            </funder>
+            <respStmt>
+               <resp>Projektleitung, Datenerhebung</resp>
+               <persName key="https://d-nb.info/gnd/143373765">
+                  <forename>Georg</forename>
+                  <surname>Hoffmann</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenerhebung</resp>
+               <persName key="https://d-nb.info/gnd/143174754">
+                  <forename>Nicole-Melanie</forename>
+                  <surname>Goll</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenkuratierung</resp>
+               <persName key="https://orcid.org/0000-0001-7081-2280">
+                  <forename>Martin</forename>
+                  <surname>Kirnbauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenmodellierung, Aufsetzen einer Datenbankapplikation zur Datenerhebung und Datenkonvertierung nach TEI</resp>
+               <persName key="https://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <persName key="https://d-nb.info/gnd/143373765">
+                  <forename>Georg</forename>
+                  <surname>Hoffmann</surname>
+               </persName>
+            </authority>
+            <availability>
+               <licence target="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0/">CC-BY 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+              <msIdentifier>
+                <institution>
+                  <orgName>National Archives and Records Administration</orgName>
+                  <idno type="VIAF">162565459</idno>
+                </institution>
+                <collection>Record Group 92</collection>
+              <idno>Missing Air Crew Reports No.: 205047</idno></msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+       <ab>
+Der vorliegende Datensatz wurde von Georg Hoffmann, Nicole-Melanie Goll sowie Martin Kirnbauer erhoben und mittels einer von Peter Andorfer entwickelten Python/Django Web-Applikation in das vorliegende TEI Dokument transformiert. Die in diesem TEI Dokument präsentierten Daten basieren vornehmlich aus dem Archivbestand National Archives and Records Administration College Park NARA, Record Group 92 und wurden ergänzt mit Quellen aus dem Bestand NARA, Record Groups 18, 153, 242, 498, 549 sowie The National Archives Kew TNA, AIR 10, 20, 23, 49 sowie WO 204, 219
+</ab>
+     </encodingDesc>
+  <xenoData xml:id="reason_of_crash__5">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/reason_of_crash__5">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/reason_of_crash/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">Unbekannt</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/reason_of_crash/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="plane_type__38">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/plane_type__38">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/plane_type/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">Wellington</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/plane_type/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="destiny_checked__51">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_checked__51">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_checked/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">Überlebt</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_checked/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="destiny_checked__55">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_checked__55">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_checked/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">Getötet</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_checked/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="rank__61">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank__61">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">Sgt</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="rank__70">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank__70">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">F/O</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="destiny_stated__103">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_stated__103">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_stated/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">RAF</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_stated/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="destiny_stated__104">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_stated__104">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_stated/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">RAAF</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_stated/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="rank__107">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank__107">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">F/Sgt</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="destiny_stated__113">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_stated__113">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_stated/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">RCAF</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_stated/Schema"/>
+  </rdf:Description>
+</xenoData></teiHeader>
+  <text>
+      <body><div type="main"><head>MF249 (MARC: 205047)</head><div xml:id="bomber">
+   <table xml:id="bomber_table">
+      <head xml:id="bomber_table_head">Informationen zum Flugzeug: MF249 (MARC: 205047)</head>
+      <row role="label">
+         <cell role="label"><choice><abbr>MACR-Nr</abbr><expan>The Missing Air Crew Reports No.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugtyp</abbr><expan>The type of the plane.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugnr</abbr><expan>The plane ID.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugname</abbr><expan>The name of the plane.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Staffel</abbr><expan>The squadron the bomber belongs to.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Datum Absturz</abbr><expan>The date of the bomber's crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Absturzursache</abbr><expan>The reason for the bomber's crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Zielort</abbr><expan>The place the bomber targeted.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Absturzort</abbr><expan>The place where the bomber crashed.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Koordinaten der letzten Sichtung</abbr><expan>Coordinates of the site the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Ort</abbr><expan>The city or village the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Land</abbr><expan>The country or county the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Uhrzeit</abbr><expan>Time of the day the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Uhrzeit Absturz</abbr><expan>Time of the crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Kommentar</abbr><expan>Comments.</expan></choice></cell>
+      </row>
+      <row role="data">
+         <cell role="data"><idno>205047</idno></cell>
+         <cell role="data"><rs type="concept" ref="#plane_type__38">Wellington</rs></cell>
+         <cell role="data"><idno>MF249</idno></cell>
+         <cell role="data"><name/></cell>
+         <cell role="data"><rs type="org" ref="#org__1133">No. 150 Squadron</rs></cell>
+        <cell role="data"><date when-iso="1944-06-26">1944-06-26</date></cell>
+         <cell role="data"><rs type="concept" ref="#reason_of_crash__5">Unbekannt</rs></cell>
+         <cell role="data"><rs type="place" ref="#place__208"><placeName>Budapest</placeName></rs> </cell>
+         <cell role="data"><rs type="place" ref="#place__378"><placeName>Ort unbekannt</placeName></rs> </cell>
+         <cell role="data"><geo/></cell>
+         <cell role="data"><placeName/></cell>
+         <cell role="data"><placeName/></cell>
+         <cell role="data"><time/></cell>
+         <cell role="data"><time/></cell>
+         <cell role="data"/>
+      </row>
+   </table>
+</div><div xml:id="crew">
+  <table xml:id="crew_table">
+    <head xml:id="crew_table_head">Die Crew des Flugzeugs
+      MF249 (MARC: 205047)</head>
+    <row role="label">
+      <cell role="label"><choice><abbr>Interne ID</abbr><expan>Identifier of the legacy database</expan></choice></cell>
+      <cell role="label"><choice><abbr>Kennnummer</abbr><expan>The number identifying the person</expan></choice></cell>
+      <cell role="label"><choice><abbr>Nachname</abbr><expan>The person's second name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Vorname</abbr><expan>The person's first name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Mittelname</abbr><expan>The person's middle name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Funktion im Flugzeug</abbr><expan>The person's function inside the bomber</expan></choice></cell>
+      <cell role="label"><choice><abbr>Dienstgrad</abbr><expan>The person's rank</expan></choice></cell>
+      <cell role="label"><choice><abbr>Eintrag MACR</abbr><expan>The person's stated destiny according to MACR</expan></choice></cell>
+      <cell role="label"><choice><abbr>Schicksal</abbr><expan>The person's checked destiny</expan></choice></cell>
+      <cell role="label"><choice><abbr>Schicksal genau</abbr><expan>The person's MIA status</expan></choice></cell>
+      <cell role="label"><choice><abbr>Stationen der Gefangenschaft</abbr><expan>Institutions and Locations the Person was kept</expan></choice></cell>
+    </row>
+    
+      <row xml:id="crew_table_row__9099" role="data">
+        <cell role="data">
+          <idno>9099</idno>
+        </cell>
+        <cell role="data">
+          <idno>544054B</idno>
+        </cell>
+        <cell role="data">
+          <surname><rs type="person" ref="#person__9099">Bell</rs></surname>
+        </cell>
+        <cell role="data">
+          <forename type="first">Thomas</forename>
+        </cell>
+        <cell role="data">
+          <forename type="middle"/>
+        </cell>
+        <cell role="data"><rs type="concept" ref="#function_in_plane__64">Bombardier</rs></cell>
+        <cell role="data"><rs type="concept" ref="#rank__107">F/Sgt</rs></cell>
+        <cell role="data"><rs type="concept" ref="#destiny_stated__103">RAF</rs></cell>
+        <cell role="data">
+          
+        </cell>
+        <cell role="data">
+            
+          </cell>
+        <cell role="data">
+          <table xml:id="crew_table_stations__9099">
+            <row role="label">
+              <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+              <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+              <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+            </row>
+          
+
+            </table>
+        </cell>
+      </row>
+    
+      <row xml:id="crew_table_row__9100" role="data">
+        <cell role="data">
+          <idno>9100</idno>
+        </cell>
+        <cell role="data">
+          <idno>1243785B</idno>
+        </cell>
+        <cell role="data">
+          <surname><rs type="person" ref="#person__9100">Hum</rs></surname>
+        </cell>
+        <cell role="data">
+          <forename type="first">Edwin</forename>
+        </cell>
+        <cell role="data">
+          <forename type="middle">Charles</forename>
+        </cell>
+        <cell role="data"><rs type="concept" ref="#function_in_plane__62">Gunner 1</rs></cell>
+        <cell role="data"><rs type="concept" ref="#rank__61">Sgt</rs></cell>
+        <cell role="data"><rs type="concept" ref="#destiny_stated__103">RAF</rs></cell>
+        <cell role="data">
+          
+        </cell>
+        <cell role="data">
+            
+          </cell>
+        <cell role="data">
+          <table xml:id="crew_table_stations__9100">
+            <row role="label">
+              <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+              <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+              <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+            </row>
+          
+
+            </table>
+        </cell>
+      </row>
+    
+      <row xml:id="crew_table_row__9101" role="data">
+        <cell role="data">
+          <idno>9101</idno>
+        </cell>
+        <cell role="data">
+          <idno>425310B</idno>
+        </cell>
+        <cell role="data">
+          <surname><rs type="person" ref="#person__9101">Jeacocke</rs></surname>
+        </cell>
+        <cell role="data">
+          <forename type="first">Stanley</forename>
+        </cell>
+        <cell role="data">
+          <forename type="middle"/>
+        </cell>
+        <cell role="data"><rs type="concept" ref="#function_in_plane__59">Gunner 2</rs></cell>
+        <cell role="data"><rs type="concept" ref="#rank__70">F/O</rs></cell>
+        <cell role="data"><rs type="concept" ref="#destiny_stated__104">RAAF</rs></cell>
+        <cell role="data">
+          
+        </cell>
+        <cell role="data">
+            
+          </cell>
+        <cell role="data">
+          <table xml:id="crew_table_stations__9101">
+            <row role="label">
+              <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+              <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+              <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+            </row>
+          
+
+            </table>
+        </cell>
+      </row>
+    
+      <row xml:id="crew_table_row__9102" role="data">
+        <cell role="data">
+          <idno>9102</idno>
+        </cell>
+        <cell role="data">
+          <idno>J/18232B</idno>
+        </cell>
+        <cell role="data">
+          <surname><rs type="person" ref="#person__9102">McAneney</rs></surname>
+        </cell>
+        <cell role="data">
+          <forename type="first">Thomas</forename>
+        </cell>
+        <cell role="data">
+          <forename type="middle">B</forename>
+        </cell>
+        <cell role="data"><rs type="concept" ref="#person_warcase_relation_type__48">Pilot</rs></cell>
+        <cell role="data"><rs type="concept" ref="#rank__70">F/O</rs></cell>
+        <cell role="data"><rs type="concept" ref="#destiny_stated__113">RCAF</rs></cell>
+        <cell role="data">
+          
+        </cell>
+        <cell role="data">
+            
+          </cell>
+        <cell role="data">
+          <table xml:id="crew_table_stations__9102">
+            <row role="label">
+              <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+              <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+              <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+            </row>
+          
+
+            </table>
+        </cell>
+      </row>
+    
+      <row xml:id="crew_table_row__9103" role="data">
+        <cell role="data">
+          <idno>9103</idno>
+        </cell>
+        <cell role="data">
+          <idno>1272578B</idno>
+        </cell>
+        <cell role="data">
+          <surname><rs type="person" ref="#person__9103">Sparrow</rs></surname>
+        </cell>
+        <cell role="data">
+          <forename type="first">Frederick</forename>
+        </cell>
+        <cell role="data">
+          <forename type="middle">S</forename>
+        </cell>
+        <cell role="data"><rs type="concept" ref="#function_in_plane__63">Navigator</rs></cell>
+        <cell role="data"><rs type="concept" ref="#rank__107">F/Sgt</rs></cell>
+        <cell role="data"><rs type="concept" ref="#destiny_stated__103">RAF</rs></cell>
+        <cell role="data">
+          
+        </cell>
+        <cell role="data">
+            
+          </cell>
+        <cell role="data">
+          <table xml:id="crew_table_stations__9103">
+            <row role="label">
+              <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+              <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+              <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+            </row>
+          
+
+            </table>
+        </cell>
+      </row>
+    
+  </table>
+</div></div></body>
+      <back><listPerson><person xml:id="person__9099">
+  <persName>
+    <forename>Thomas</forename>
+    
+    <surname>Bell</surname>
+  </persName>
+  
+  
+</person><person xml:id="person__9100">
+  <persName>
+    <forename>Edwin</forename>
+    <forename type="middle">Charles</forename>
+    <surname>Hum</surname>
+  </persName>
+  
+  
+</person><person xml:id="person__9101">
+  <persName>
+    <forename>Stanley</forename>
+    
+    <surname>Jeacocke</surname>
+  </persName>
+  
+  
+</person><person xml:id="person__9102">
+  <persName>
+    <forename>Thomas</forename>
+    <forename type="middle">B</forename>
+    <surname>McAneney</surname>
+  </persName>
+  
+  
+</person><person xml:id="person__9103">
+  <persName>
+    <forename>Frederick</forename>
+    <forename type="middle">S</forename>
+    <surname>Sparrow</surname>
+  </persName>
+  
+  
+</person></listPerson><listPlace><place xml:id="place__208">
+  <placeName>Budapest</placeName>
+  
+  
+  <location>
+    <geo>47.498010000000 19.039910000000</geo>
+ </location>
+ 
+  
+  <idno subtype="geonames" type="URL">http://www.geonames.org/3054643</idno>
+  
+</place><place xml:id="place__378">
+  <placeName>Ort unbekannt</placeName>
+  
+  
+  
+</place></listPlace><listOrg><org xml:id="org__1133">
+  <orgName>No. 150 Squadron</orgName>
+    
+   <orgName type="bomb_group">No. 205 (Heavy Bomber) Group RAF</orgName>
+   
+   
+  <orgName type="airforce">RAF</orgName>
+  
+</org></listOrg></back>
+  </text>
+</TEI>

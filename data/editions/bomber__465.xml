@@ -1,0 +1,1999 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/daacda" xml:id="bomber__465.xml" prev="https://id.acdh.oeaw.ac.at/daacda/data/bomber__464.xml" next="https://id.acdh.oeaw.ac.at/daacda/data/bomber__466.xml">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">42-52482 (MARC: 7336)</title>
+            <title type="sub">Downed Allied Air Crew Database Austria</title>
+            <funder>
+                <orgName key="https://d-nb.info/gnd/1090414722">
+                    Österreichische Akademie der Wissenschaften
+                </orgName>
+            </funder>
+            <respStmt>
+               <resp>Projektleitung, Datenerhebung</resp>
+               <persName key="https://d-nb.info/gnd/143373765">
+                  <forename>Georg</forename>
+                  <surname>Hoffmann</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenerhebung</resp>
+               <persName key="https://d-nb.info/gnd/143174754">
+                  <forename>Nicole-Melanie</forename>
+                  <surname>Goll</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenkuratierung</resp>
+               <persName key="https://orcid.org/0000-0001-7081-2280">
+                  <forename>Martin</forename>
+                  <surname>Kirnbauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenmodellierung, Aufsetzen einer Datenbankapplikation zur Datenerhebung und Datenkonvertierung nach TEI</resp>
+               <persName key="https://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <persName key="https://d-nb.info/gnd/143373765">
+                  <forename>Georg</forename>
+                  <surname>Hoffmann</surname>
+               </persName>
+            </authority>
+            <availability>
+               <licence target="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0/">CC-BY 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+              <msIdentifier>
+                <institution>
+                  <orgName>National Archives and Records Administration</orgName>
+                  <idno type="VIAF">162565459</idno>
+                </institution>
+                <collection>Record Group 92</collection>
+              <idno>Missing Air Crew Reports No.: 7336</idno></msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+       <ab>
+Der vorliegende Datensatz wurde von Georg Hoffmann, Nicole-Melanie Goll sowie Martin Kirnbauer erhoben und mittels einer von Peter Andorfer entwickelten Python/Django Web-Applikation in das vorliegende TEI Dokument transformiert. Die in diesem TEI Dokument präsentierten Daten basieren vornehmlich aus dem Archivbestand National Archives and Records Administration College Park NARA, Record Group 92 und wurden ergänzt mit Quellen aus dem Bestand NARA, Record Groups 18, 153, 242, 498, 549 sowie The National Archives Kew TNA, AIR 10, 20, 23, 49 sowie WO 204, 219
+</ab>
+     </encodingDesc>
+  <xenoData xml:id="reason_of_crash__13">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/reason_of_crash__13">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/reason_of_crash/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">Flak</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/reason_of_crash/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="plane_type__17">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/plane_type__17">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/plane_type/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">B-24H</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/plane_type/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="rank__49">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank__49">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">1st Lt</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="destiny_checked__50">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_checked__50">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_checked/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">0</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_checked/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="destiny_checked__51">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_checked__51">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_checked/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">Überlebt</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_checked/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="rank__52">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank__52">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">2nd Lt</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="destiny_stated__53">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_stated__53">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_stated/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">Rtd</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_stated/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="destiny_checked__55">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_checked__55">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_checked/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">Getötet</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/destiny_checked/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="rank__58">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank__58">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">S/Sgt</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank/Schema"/>
+  </rdf:Description>
+</xenoData><xenoData xml:id="rank__67">
+  <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank__67">
+    <dc:source>Downed Allied Air Crew Database Austria</dc:source>
+    
+      <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank/Schema"/>
+    
+    <skos:prefLabel xml:lang="de">T/Sgt</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/daacda/vocabs/rank/Schema"/>
+  </rdf:Description>
+</xenoData></teiHeader>
+  <text>
+      <body><div type="main"><head>42-52482 (MARC: 7336)</head><div xml:id="bomber">
+   <table xml:id="bomber_table">
+      <head xml:id="bomber_table_head">Informationen zum Flugzeug: 42-52482 (MARC: 7336)</head>
+      <row role="label">
+         <cell role="label"><choice><abbr>MACR-Nr</abbr><expan>The Missing Air Crew Reports No.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugtyp</abbr><expan>The type of the plane.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugnr</abbr><expan>The plane ID.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugname</abbr><expan>The name of the plane.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Staffel</abbr><expan>The squadron the bomber belongs to.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Datum Absturz</abbr><expan>The date of the bomber's crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Absturzursache</abbr><expan>The reason for the bomber's crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Zielort</abbr><expan>The place the bomber targeted.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Absturzort</abbr><expan>The place where the bomber crashed.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Koordinaten der letzten Sichtung</abbr><expan>Coordinates of the site the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Ort</abbr><expan>The city or village the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Land</abbr><expan>The country or county the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Uhrzeit</abbr><expan>Time of the day the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Uhrzeit Absturz</abbr><expan>Time of the crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Kommentar</abbr><expan>Comments.</expan></choice></cell>
+      </row>
+      <row role="data">
+         <cell role="data"><idno>7336</idno></cell>
+         <cell role="data"><rs type="concept" ref="#plane_type__17">B-24H</rs></cell>
+         <cell role="data"><idno>42-52482</idno></cell>
+         <cell role="data"><name/></cell>
+         <cell role="data"><rs type="org" ref="#org__590">780th Bomb Squadron</rs></cell>
+        <cell role="data"><date when-iso="1944-07-26">1944-07-26</date></cell>
+         <cell role="data"><rs type="concept" ref="#reason_of_crash__13">Flak</rs></cell>
+         <cell role="data"><rs type="place" ref="#place__177"><placeName>Bad Vöslau</placeName></rs> </cell>
+         <cell role="data"><rs type="place" ref="#place__339"><placeName>Sopron</placeName></rs> </cell>
+         <cell role="data"><geo/></cell>
+         <cell role="data"><placeName>Neusiedlersee</placeName></cell>
+         <cell role="data"><placeName/></cell>
+         <cell role="data"><time>11:40</time></cell>
+         <cell role="data"><time>11:30</time></cell>
+         <cell role="data"/>
+      </row>
+   </table>
+</div><div xml:id="crew">
+  <table xml:id="crew_table">
+    <head xml:id="crew_table_head">Die Crew des Flugzeugs
+      42-52482 (MARC: 7336)</head>
+    <row role="label">
+      <cell role="label"><choice><abbr>Interne ID</abbr><expan>Identifier of the legacy database</expan></choice></cell>
+      <cell role="label"><choice><abbr>Kennnummer</abbr><expan>The number identifying the person</expan></choice></cell>
+      <cell role="label"><choice><abbr>Nachname</abbr><expan>The person's second name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Vorname</abbr><expan>The person's first name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Mittelname</abbr><expan>The person's middle name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Funktion im Flugzeug</abbr><expan>The person's function inside the bomber</expan></choice></cell>
+      <cell role="label"><choice><abbr>Dienstgrad</abbr><expan>The person's rank</expan></choice></cell>
+      <cell role="label"><choice><abbr>Eintrag MACR</abbr><expan>The person's stated destiny according to MACR</expan></choice></cell>
+      <cell role="label"><choice><abbr>Schicksal</abbr><expan>The person's checked destiny</expan></choice></cell>
+      <cell role="label"><choice><abbr>Schicksal genau</abbr><expan>The person's MIA status</expan></choice></cell>
+      <cell role="label"><choice><abbr>Stationen der Gefangenschaft</abbr><expan>Institutions and Locations the Person was kept</expan></choice></cell>
+    </row>
+    
+      <row xml:id="crew_table_row__4984" role="data">
+        <cell role="data">
+          <idno>4984</idno>
+        </cell>
+        <cell role="data">
+          <idno>18219477</idno>
+        </cell>
+        <cell role="data">
+          <surname><rs type="person" ref="#person__4984">Bradford</rs></surname>
+        </cell>
+        <cell role="data">
+          <forename type="first">William</forename>
+        </cell>
+        <cell role="data">
+          <forename type="middle">F.</forename>
+        </cell>
+        <cell role="data"><rs type="concept" ref="#function_in_plane__60">Gunner 3</rs></cell>
+        <cell role="data"><rs type="concept" ref="#rank__58">S/Sgt</rs></cell>
+        <cell role="data"><rs type="concept" ref="#destiny_stated__53">Rtd</rs></cell>
+        <cell role="data">
+          
+        </cell>
+        <cell role="data">
+            
+          </cell>
+        <cell role="data">
+          <table xml:id="crew_table_stations__4984">
+            <row role="label">
+              <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+              <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+              <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+            </row>
+          
+
+
+              <row role="data" xml:id="crew_table_stations_row__20456">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__17561">AW Südost</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__20457">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__9323">Dulag Luft</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31592">Oberursel</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35792">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__10513">Stalag Luft III</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31581">Żagań</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35802">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12299">Stalag Luft IV</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__32489">Groß-Tychow</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35812">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12565">Stalag VII-A</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31586">Moosburg</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+            </table>
+        </cell>
+      </row>
+    
+      <row xml:id="crew_table_row__4985" role="data">
+        <cell role="data">
+          <idno>4985</idno>
+        </cell>
+        <cell role="data">
+          <idno>O-677259</idno>
+        </cell>
+        <cell role="data">
+          <surname><rs type="person" ref="#person__4985">Godfrey</rs></surname>
+        </cell>
+        <cell role="data">
+          <forename type="first">Harry</forename>
+        </cell>
+        <cell role="data">
+          <forename type="middle">K.</forename>
+        </cell>
+        <cell role="data"><rs type="concept" ref="#person_warcase_relation_type__48">Pilot</rs></cell>
+        <cell role="data"><rs type="concept" ref="#rank__49">1st Lt</rs></cell>
+        <cell role="data"><rs type="concept" ref="#destiny_checked__50">0</rs></cell>
+        <cell role="data">
+          
+        </cell>
+        <cell role="data">
+            
+          </cell>
+        <cell role="data">
+          <table xml:id="crew_table_stations__4985">
+            <row role="label">
+              <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+              <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+              <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+            </row>
+          
+
+
+              <row role="data" xml:id="crew_table_stations_row__20460">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__17561">AW Südost</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__20461">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__9323">Dulag Luft</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31592">Oberursel</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35793">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__10513">Stalag Luft III</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31581">Żagań</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35803">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12299">Stalag Luft IV</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__32489">Groß-Tychow</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35813">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12565">Stalag VII-A</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31586">Moosburg</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+            </table>
+        </cell>
+      </row>
+    
+      <row xml:id="crew_table_row__4986" role="data">
+        <cell role="data">
+          <idno>4986</idno>
+        </cell>
+        <cell role="data">
+          <idno>O-809001</idno>
+        </cell>
+        <cell role="data">
+          <surname><rs type="person" ref="#person__4986">Hooper</rs></surname>
+        </cell>
+        <cell role="data">
+          <forename type="first">William</forename>
+        </cell>
+        <cell role="data">
+          <forename type="middle">J.</forename>
+        </cell>
+        <cell role="data"><rs type="concept" ref="#function_in_plane__56">Co-Pilot</rs></cell>
+        <cell role="data"><rs type="concept" ref="#rank__52">2nd Lt</rs></cell>
+        <cell role="data"><rs type="concept" ref="#destiny_checked__50">0</rs></cell>
+        <cell role="data">
+          
+        </cell>
+        <cell role="data">
+            
+          </cell>
+        <cell role="data">
+          <table xml:id="crew_table_stations__4986">
+            <row role="label">
+              <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+              <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+              <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+            </row>
+          
+
+
+              <row role="data" xml:id="crew_table_stations_row__20463">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__17561">AW Südost</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__20464">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__9323">Dulag Luft</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31592">Oberursel</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35794">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__10513">Stalag Luft III</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31581">Żagań</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35804">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12299">Stalag Luft IV</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__32489">Groß-Tychow</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35814">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12565">Stalag VII-A</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31586">Moosburg</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+            </table>
+        </cell>
+      </row>
+    
+      <row xml:id="crew_table_row__4987" role="data">
+        <cell role="data">
+          <idno>4987</idno>
+        </cell>
+        <cell role="data">
+          <idno>35328011</idno>
+        </cell>
+        <cell role="data">
+          <surname><rs type="person" ref="#person__4987">Keil</rs></surname>
+        </cell>
+        <cell role="data">
+          <forename type="first">Howard</forename>
+        </cell>
+        <cell role="data">
+          <forename type="middle">J.</forename>
+        </cell>
+        <cell role="data"><rs type="concept" ref="#function_in_plane__62">Gunner 1</rs></cell>
+        <cell role="data"><rs type="concept" ref="#rank__67">T/Sgt</rs></cell>
+        <cell role="data"><rs type="concept" ref="#destiny_stated__53">Rtd</rs></cell>
+        <cell role="data">
+          
+        </cell>
+        <cell role="data">
+            
+          </cell>
+        <cell role="data">
+          <table xml:id="crew_table_stations__4987">
+            <row role="label">
+              <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+              <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+              <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+            </row>
+          
+
+
+              <row role="data" xml:id="crew_table_stations_row__20466">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__17561">AW Südost</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__20467">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__9323">Dulag Luft</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31592">Oberursel</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35795">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__10513">Stalag Luft III</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31581">Żagań</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35805">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12299">Stalag Luft IV</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__32489">Groß-Tychow</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35815">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12565">Stalag VII-A</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31586">Moosburg</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+            </table>
+        </cell>
+      </row>
+    
+      <row xml:id="crew_table_row__4988" role="data">
+        <cell role="data">
+          <idno>4988</idno>
+        </cell>
+        <cell role="data">
+          <idno>31184685</idno>
+        </cell>
+        <cell role="data">
+          <surname><rs type="person" ref="#person__4988">Martin</rs></surname>
+        </cell>
+        <cell role="data">
+          <forename type="first">Gerard</forename>
+        </cell>
+        <cell role="data">
+          <forename type="middle"/>
+        </cell>
+        <cell role="data"><rs type="concept" ref="#function_in_plane__66">Gunner 5</rs></cell>
+        <cell role="data"><rs type="concept" ref="#rank__58">S/Sgt</rs></cell>
+        <cell role="data"><rs type="concept" ref="#destiny_stated__53">Rtd</rs></cell>
+        <cell role="data">
+          
+        </cell>
+        <cell role="data">
+            
+          </cell>
+        <cell role="data">
+          <table xml:id="crew_table_stations__4988">
+            <row role="label">
+              <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+              <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+              <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+            </row>
+          
+
+
+              <row role="data" xml:id="crew_table_stations_row__20469">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__17561">AW Südost</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__20470">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__9323">Dulag Luft</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31592">Oberursel</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35796">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__10513">Stalag Luft III</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31581">Żagań</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35806">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12299">Stalag Luft IV</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__32489">Groß-Tychow</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35816">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12565">Stalag VII-A</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31586">Moosburg</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+            </table>
+        </cell>
+      </row>
+    
+      <row xml:id="crew_table_row__4989" role="data">
+        <cell role="data">
+          <idno>4989</idno>
+        </cell>
+        <cell role="data">
+          <idno>O-672971</idno>
+        </cell>
+        <cell role="data">
+          <surname><rs type="person" ref="#person__4989">Petitti</rs></surname>
+        </cell>
+        <cell role="data">
+          <forename type="first">Norman</forename>
+        </cell>
+        <cell role="data">
+          <forename type="middle">J.</forename>
+        </cell>
+        <cell role="data"><rs type="concept" ref="#function_in_plane__64">Bombardier</rs></cell>
+        <cell role="data"><rs type="concept" ref="#rank__52">2nd Lt</rs></cell>
+        <cell role="data"><rs type="concept" ref="#destiny_stated__53">Rtd</rs></cell>
+        <cell role="data">
+          
+        </cell>
+        <cell role="data">
+            
+          </cell>
+        <cell role="data">
+          <table xml:id="crew_table_stations__4989">
+            <row role="label">
+              <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+              <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+              <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+            </row>
+          
+
+
+              <row role="data" xml:id="crew_table_stations_row__20472">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__17561">AW Südost</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__20473">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__9323">Dulag Luft</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31592">Oberursel</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35797">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__10513">Stalag Luft III</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31581">Żagań</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35807">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12299">Stalag Luft IV</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__32489">Groß-Tychow</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35817">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12565">Stalag VII-A</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31586">Moosburg</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+            </table>
+        </cell>
+      </row>
+    
+      <row xml:id="crew_table_row__4990" role="data">
+        <cell role="data">
+          <idno>4990</idno>
+        </cell>
+        <cell role="data">
+          <idno>35589283</idno>
+        </cell>
+        <cell role="data">
+          <surname><rs type="person" ref="#person__4990">Printz</rs></surname>
+        </cell>
+        <cell role="data">
+          <forename type="first">Harold</forename>
+        </cell>
+        <cell role="data">
+          <forename type="middle">M.</forename>
+        </cell>
+        <cell role="data"><rs type="concept" ref="#function_in_plane__59">Gunner 2</rs></cell>
+        <cell role="data"><rs type="concept" ref="#rank__67">T/Sgt</rs></cell>
+        <cell role="data"><rs type="concept" ref="#destiny_checked__50">0</rs></cell>
+        <cell role="data">
+          
+        </cell>
+        <cell role="data">
+            
+          </cell>
+        <cell role="data">
+          <table xml:id="crew_table_stations__4990">
+            <row role="label">
+              <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+              <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+              <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+            </row>
+          
+
+
+              <row role="data" xml:id="crew_table_stations_row__20475">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__17561">AW Südost</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__20476">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__9323">Dulag Luft</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31592">Oberursel</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35798">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__10513">Stalag Luft III</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31581">Żagań</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35808">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12299">Stalag Luft IV</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__32489">Groß-Tychow</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35818">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12565">Stalag VII-A</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31586">Moosburg</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+            </table>
+        </cell>
+      </row>
+    
+      <row xml:id="crew_table_row__4991" role="data">
+        <cell role="data">
+          <idno>4991</idno>
+        </cell>
+        <cell role="data">
+          <idno>O-698398</idno>
+        </cell>
+        <cell role="data">
+          <surname><rs type="person" ref="#person__4991">Wake</rs></surname>
+        </cell>
+        <cell role="data">
+          <forename type="first">Donald</forename>
+        </cell>
+        <cell role="data">
+          <forename type="middle">K.</forename>
+        </cell>
+        <cell role="data"><rs type="concept" ref="#function_in_plane__63">Navigator</rs></cell>
+        <cell role="data"><rs type="concept" ref="#rank__52">2nd Lt</rs></cell>
+        <cell role="data"><rs type="concept" ref="#destiny_stated__53">Rtd</rs></cell>
+        <cell role="data">
+          
+        </cell>
+        <cell role="data">
+            
+          </cell>
+        <cell role="data">
+          <table xml:id="crew_table_stations__4991">
+            <row role="label">
+              <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+              <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+              <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+            </row>
+          
+
+
+              <row role="data" xml:id="crew_table_stations_row__20478">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__17561">AW Südost</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__20479">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__9323">Dulag Luft</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31592">Oberursel</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35799">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__10513">Stalag Luft III</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31581">Żagań</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35809">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12299">Stalag Luft IV</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__32489">Groß-Tychow</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35819">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12565">Stalag VII-A</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31586">Moosburg</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+            </table>
+        </cell>
+      </row>
+    
+      <row xml:id="crew_table_row__4992" role="data">
+        <cell role="data">
+          <idno>4992</idno>
+        </cell>
+        <cell role="data">
+          <idno>11096327</idno>
+        </cell>
+        <cell role="data">
+          <surname><rs type="person" ref="#person__4992">Willett</rs></surname>
+        </cell>
+        <cell role="data">
+          <forename type="first">Joseph</forename>
+        </cell>
+        <cell role="data">
+          <forename type="middle">J.</forename>
+        </cell>
+        <cell role="data"><rs type="concept" ref="#function_in_plane__65">Gunner 6</rs></cell>
+        <cell role="data"><rs type="concept" ref="#rank__58">S/Sgt</rs></cell>
+        <cell role="data"><rs type="concept" ref="#destiny_stated__53">Rtd</rs></cell>
+        <cell role="data">
+          
+        </cell>
+        <cell role="data">
+            
+          </cell>
+        <cell role="data">
+          <table xml:id="crew_table_stations__4992">
+            <row role="label">
+              <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+              <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+              <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+            </row>
+          
+
+
+              <row role="data" xml:id="crew_table_stations_row__20481">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__17561">AW Südost</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__20482">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__9323">Dulag Luft</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31592">Oberursel</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35800">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__10513">Stalag Luft III</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31581">Żagań</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35810">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12299">Stalag Luft IV</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__32489">Groß-Tychow</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35820">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12565">Stalag VII-A</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31586">Moosburg</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+            </table>
+        </cell>
+      </row>
+    
+      <row xml:id="crew_table_row__4993" role="data">
+        <cell role="data">
+          <idno>4993</idno>
+        </cell>
+        <cell role="data">
+          <idno>18162825</idno>
+        </cell>
+        <cell role="data">
+          <surname><rs type="person" ref="#person__4993">Wood</rs></surname>
+        </cell>
+        <cell role="data">
+          <forename type="first">Ernest</forename>
+        </cell>
+        <cell role="data">
+          <forename type="middle"/>
+        </cell>
+        <cell role="data"><rs type="concept" ref="#function_in_plane__57">Gunner 4</rs></cell>
+        <cell role="data"><rs type="concept" ref="#rank__58">S/Sgt</rs></cell>
+        <cell role="data"><rs type="concept" ref="#destiny_stated__53">Rtd</rs></cell>
+        <cell role="data">
+          
+        </cell>
+        <cell role="data">
+            
+          </cell>
+        <cell role="data">
+          <table xml:id="crew_table_stations__4993">
+            <row role="label">
+              <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+              <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+              <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+              <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+            </row>
+          
+
+
+              <row role="data" xml:id="crew_table_stations_row__20484">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__17561">AW Südost</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__20485">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__9323">Dulag Luft</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31592">Oberursel</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35801">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__10513">Stalag Luft III</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31581">Żagań</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35811">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12299">Stalag Luft IV</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__32489">Groß-Tychow</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+
+              <row role="data" xml:id="crew_table_stations_row__35821">
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="org" ref="#org__12565">Stalag VII-A</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                      <rs type="place" ref="#place__31586">Moosburg</rs>
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+                <cell role="data">
+                  
+                </cell>
+              </row>
+              
+
+            </table>
+        </cell>
+      </row>
+    
+  </table>
+</div></div></body>
+      <back><listPerson><person xml:id="person__4984">
+  <persName>
+    <forename>William</forename>
+    <forename type="middle">F.</forename>
+    <surname>Bradford</surname>
+  </persName>
+  
+  
+</person><person xml:id="person__4985">
+  <persName>
+    <forename>Harry</forename>
+    <forename type="middle">K.</forename>
+    <surname>Godfrey</surname>
+  </persName>
+  
+  
+</person><person xml:id="person__4986">
+  <persName>
+    <forename>William</forename>
+    <forename type="middle">J.</forename>
+    <surname>Hooper</surname>
+  </persName>
+  
+  
+</person><person xml:id="person__4987">
+  <persName>
+    <forename>Howard</forename>
+    <forename type="middle">J.</forename>
+    <surname>Keil</surname>
+  </persName>
+  
+  
+</person><person xml:id="person__4988">
+  <persName>
+    <forename>Gerard</forename>
+    
+    <surname>Martin</surname>
+  </persName>
+  
+  
+</person><person xml:id="person__4989">
+  <persName>
+    <forename>Norman</forename>
+    <forename type="middle">J.</forename>
+    <surname>Petitti</surname>
+  </persName>
+  
+  
+</person><person xml:id="person__4990">
+  <persName>
+    <forename>Harold</forename>
+    <forename type="middle">M.</forename>
+    <surname>Printz</surname>
+  </persName>
+  
+  
+</person><person xml:id="person__4991">
+  <persName>
+    <forename>Donald</forename>
+    <forename type="middle">K.</forename>
+    <surname>Wake</surname>
+  </persName>
+  
+  
+</person><person xml:id="person__4992">
+  <persName>
+    <forename>Joseph</forename>
+    <forename type="middle">J.</forename>
+    <surname>Willett</surname>
+  </persName>
+  
+  
+</person><person xml:id="person__4993">
+  <persName>
+    <forename>Ernest</forename>
+    
+    <surname>Wood</surname>
+  </persName>
+  
+  
+</person></listPerson><listPlace><place xml:id="place__177">
+  <placeName>Bad Vöslau</placeName>
+  
+  
+  <location>
+    <geo>47.965330000000 16.213590000000</geo>
+ </location>
+ 
+  
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2782043</idno>
+  
+</place><place xml:id="place__339">
+  <placeName>Sopron</placeName>
+  
+  <placeName type="alt"/>
+  
+  
+  <location>
+    <geo>47.685010000000 16.590490000000</geo>
+ </location>
+ 
+  
+  <idno subtype="geonames" type="URL">http://www.geonames.org/3045190</idno>
+  
+</place><place xml:id="place__31581">
+  <placeName>Żagań</placeName>
+  
+  <placeName type="alt"/>
+  
+  
+  <location>
+    <geo>51.617590000000 15.314860000000</geo>
+ </location>
+ 
+  
+  <idno subtype="geonames" type="URL">http://www.geonames.org/3080944</idno>
+  
+</place><place xml:id="place__31586">
+  <placeName>Moosburg</placeName>
+  
+  
+  <location>
+    <geo>48.470890000000 11.938110000000</geo>
+ </location>
+ 
+  
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2869449</idno>
+  
+</place><place xml:id="place__31592">
+  <placeName>Oberursel</placeName>
+  
+  
+  <location>
+    <geo>50.207310000000 8.577470000000</geo>
+ </location>
+ 
+  
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2858738</idno>
+  
+</place><place xml:id="place__32489">
+  <placeName>Groß-Tychow</placeName>
+  
+  
+  <location>
+    <geo>53.927740000000 16.257710000000</geo>
+ </location>
+ 
+  
+  <idno subtype="geonames" type="URL">http://www.geonames.org/3082916</idno>
+  
+</place></listPlace><listOrg><org xml:id="org__17561">
+  <orgName>AW Südost</orgName>
+    
+   
+</org><org xml:id="org__9323">
+  <orgName>Dulag Luft</orgName>
+    
+   
+</org><org xml:id="org__10513">
+  <orgName>Stalag Luft III</orgName>
+    
+   
+</org><org xml:id="org__12299">
+  <orgName>Stalag Luft IV</orgName>
+    
+   
+</org><org xml:id="org__12565">
+  <orgName>Stalag VII-A</orgName>
+    
+   
+</org><org xml:id="org__590">
+  <orgName>780th Bomb Squadron</orgName>
+    
+   <orgName type="bomb_group">465th Bomb Group</orgName>
+   
+   
+  <orgName type="airforce">15th USAAF</orgName>
+  
+</org></listOrg></back>
+  </text>
+</TEI>
