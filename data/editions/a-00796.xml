@@ -1,0 +1,729 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://daacda.acdh.oeaw.ac.at" xml:id="bomber__796.xml" prev="https://daacda.acdh.oeaw.ac.at/data/bomber__795.xml" next="https://daacda.acdh.oeaw.ac.at/data/bomber__797.xml">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">44-6653 (MARC: 12110)</title>
+            <title type="sub">Downed Allied Air Crew Database Austria</title>
+            <funder>
+                <orgName key="https://d-nb.info/gnd/1090414722">
+                    Österreichische Akademie der Wissenschaften
+                </orgName>
+            </funder>
+            <respStmt>
+               <resp>Projektleitung, Datenerhebung</resp>
+               <persName key="https://d-nb.info/gnd/143373765">
+                  <forename>Georg</forename>
+                  <surname>Hoffmann</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenerhebung</resp>
+               <persName key="https://d-nb.info/gnd/143174754">
+                  <forename>Nicole-Melanie</forename>
+                  <surname>Goll</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenkuratierung</resp>
+               <persName key="https://orcid.org/0000-0001-7081-2280">
+                  <forename>Martin</forename>
+                  <surname>Kirnbauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenmodellierung, Aufsetzen einer Datenbankapplikation zur Datenerhebung und Datenkonvertierung nach TEI</resp>
+               <persName key="https://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <persName key="https://d-nb.info/gnd/143373765">
+                  <forename>Georg</forename>
+                  <surname>Hoffmann</surname>
+               </persName>
+            </authority>
+            <availability>
+               <licence target="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0/">CC-BY 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+              <msIdentifier>
+                <institution>
+                  <orgName>National Archives and Records Administration</orgName>
+                  <idno type="VIAF">162565459</idno>
+                </institution>
+                <collection>Record Group 92</collection>
+              <idno>Missing Air Crew Reports No.: 12110</idno></msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+       <ab>
+Der vorliegende Datensatz wurde von Georg Hoffmann, Nicole-Melanie Goll sowie Martin Kirnbauer erhoben und mittels einer von Peter Andorfer entwickelten Python/Django Web-Applikation in das vorliegende TEI Dokument transformiert. Die in diesem TEI Dokument präsentierten Daten basieren vornehmlich aus dem Archivbestand National Archives and Records Administration College Park NARA, Record Group 92 und wurden ergänzt mit Quellen aus dem Bestand NARA, Record Groups 18, 153, 242, 498, 549 sowie The National Archives Kew TNA, AIR 10, 20, 23, 49 sowie WO 204, 219
+</ab>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body><div type="main"><head>44-6653 (MARC: 12110)</head><div xml:id="bomber">
+   <table xml:id="bomber_table">
+      <head xml:id="bomber_table_head">Informationen zum Flugzeug: 44-6653 (MARC: 12110)</head>
+      <row role="label">
+         <cell role="label"><choice><abbr>MACR-Nr</abbr><expan>The Missing Air Crew Reports No.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugtyp</abbr><expan>The type of the plane.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugnr</abbr><expan>The plane ID.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugname</abbr><expan>The name of the plane.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Staffel</abbr><expan>The squadron the bomber belongs to.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Datum Absturz</abbr><expan>The date of the bomber's crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Absturzursache</abbr><expan>The reason for the bomber's crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Zielort</abbr><expan>The place the bomber targeted.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Absturzort</abbr><expan>The place where the bomber crashed.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Koordinaten der letzten Sichtung</abbr><expan>Coordinates of the site the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Ort</abbr><expan>The city or village the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Land</abbr><expan>The country or county the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Uhrzeit</abbr><expan>Time of the day the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Uhrzeit Absturz</abbr><expan>Time of the crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Kommentar</abbr><expan>Comments.</expan></choice></cell>
+      </row>
+      <row role="data">
+         <cell role="data"><idno>12110</idno></cell>
+         <cell role="data"><rs type="concept" ref="#concept_b-17g-16">B-17G</rs></cell>
+         <cell role="data"><idno>44-6653</idno></cell>
+         <cell role="data"><name/></cell>
+         <cell role="data"><rs type="org" ref="#org__108">419th Bomb Squadron</rs></cell>
+        <cell role="data"><date when-iso="1945-02-13">1945-02-13</date></cell>
+         <cell role="data"><rs type="concept" ref="#concept_flak-13">Flak</rs></cell>
+         <cell role="data"><rs type="place" ref="#place__167"><placeName>Wien</placeName></rs> </cell>
+         <cell role="data"><rs type="place" ref="#place__924"><placeName>Orth an der Donau</placeName></rs> </cell>
+         <cell role="data"><geo>48°11'N, 16°18'E</geo></cell>
+         <cell role="data"><placeName>Wien</placeName></cell>
+         <cell role="data"><placeName/></cell>
+         <cell role="data"><time/></cell>
+         <cell role="data"><time/></cell>
+         <cell role="data">Andere Bomberbesatzungen sahen wie die Maschine zu brennen begann, sich einige Fallschirme aus dem Flugzeug lösten, ehe diese in einen spiralförmigen Sturzflug überging und aus der Sicht der anderen Crews verschwand.</cell>
+      </row>
+   </table>
+</div><div xml:id="crew">
+  <table xml:id="crew_table">
+    <head xml:id="crew_table_head">Die Crew des Flugzeugs 44-6653 (MARC: 12110)</head>
+    <row role="label">
+      <cell role="label"><choice><abbr>Interne ID</abbr><expan>Identifier of the legacy database</expan></choice></cell>
+      <cell role="label"><choice><abbr>Kennnummer</abbr><expan>The number identifying the person</expan></choice></cell>
+      <cell role="label"><choice><abbr>Nachname</abbr><expan>The person's second name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Vorname</abbr><expan>The person's first name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Mittelname</abbr><expan>The person's middle name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Funktion im Flugzeug</abbr><expan>The person's function inside the bomber</expan></choice></cell>
+      <cell role="label"><choice><abbr>Dienstgrad</abbr><expan>The person's rank</expan></choice></cell>
+      <cell role="label"><choice><abbr>Eintrag MACR</abbr><expan>The person's stated destiny according to MACR</expan></choice></cell>
+      <cell role="label"><choice><abbr>Schicksal</abbr><expan>The person's checked destiny</expan></choice></cell>
+      <cell role="label"><choice><abbr>Schicksal genau</abbr><expan>The person's MIA status</expan></choice></cell>
+      <cell role="label"><choice><abbr>Stationen der Gefangenschaft</abbr><expan>Institutions and Locations the Person was kept</expan></choice></cell>
+    </row>
+    <row xml:id="crew_table_row__7633" role="data">
+      <cell role="data"><idno>7633</idno></cell>
+      <cell role="data"><idno>O-798484</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__7633">Glesener</rs></surname></cell>
+      <cell role="data"><forename type="first">Cletus</forename></cell>
+      <cell role="data"><forename type="middle">E.</forename></cell>
+      <cell role="data"><term>Co-Pilot</term></cell>
+      <cell role="data"><term>1st Lt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__7633">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__27220">
+              <cell role="data"><term>wurde aufgegriffen in</term></cell>
+              <cell role="data"/>
+              <cell role="data"><rs type="place" ref="#place__618">Lobau</rs></cell>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__27224">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__27057">Dulag Luft Wetzlar</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31580">Frankfurt am Main</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__36166">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__10513">Stalag Luft III</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31581">Żagań</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__36176">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__12595">Fliegerhorst Parndorf</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__720">Parndorf</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__7634" role="data">
+      <cell role="data"><idno>7634</idno></cell>
+      <cell role="data"><idno>O-2065785</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__7634">Lauffer</rs></surname></cell>
+      <cell role="data"><forename type="first">Edward</forename></cell>
+      <cell role="data"><forename type="middle">L.</forename></cell>
+      <cell role="data"><term>Navigator</term></cell>
+      <cell role="data"><term>1st Lt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__7634">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__27225">
+              <cell role="data"><term>wurde aufgegriffen in</term></cell>
+              <cell role="data"/>
+              <cell role="data"><rs type="place" ref="#place__37437">Pachfurth</rs></cell>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__27227">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__27057">Dulag Luft Wetzlar</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31580">Frankfurt am Main</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__36177">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__12595">Fliegerhorst Parndorf</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__720">Parndorf</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__7635" role="data">
+      <cell role="data"><idno>7635</idno></cell>
+      <cell role="data"><idno>39862452</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__7635">Lee</rs></surname></cell>
+      <cell role="data"><forename type="first">Brooks</forename></cell>
+      <cell role="data"><forename type="middle"/></cell>
+      <cell role="data"><term>Gunner 4</term></cell>
+      <cell role="data"><term>Sgt</term></cell>
+      <cell role="data"><term>0</term></cell>
+      <cell role="data"><term>Getötet</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__7635">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__27228">
+              <cell role="data"><term>wurde begraben in</term></cell>
+              <cell role="data"/>
+              <cell role="data"><rs type="place" ref="#place__37439">Andlersdorf</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__27230">
+              <cell role="data"><term>starb in</term></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__7636" role="data">
+      <cell role="data"><idno>7636</idno></cell>
+      <cell role="data"><idno>31425897</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__7636">Liacos</rs></surname></cell>
+      <cell role="data"><forename type="first">Athas</forename></cell>
+      <cell role="data"><forename type="middle">D.</forename></cell>
+      <cell role="data"><term>Gunner 5</term></cell>
+      <cell role="data"><term>S/Sgt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__7636">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__27231">
+              <cell role="data"><term>wurde aufgegriffen in</term></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__27233">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__27057">Dulag Luft Wetzlar</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31580">Frankfurt am Main</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__37442">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__10513">Stalag Luft III</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31581">Żagań</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__7637" role="data">
+      <cell role="data"><idno>7637</idno></cell>
+      <cell role="data"><idno>38563231</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__7637">McCreary</rs></surname></cell>
+      <cell role="data"><forename type="first">James</forename></cell>
+      <cell role="data"><forename type="middle">H.</forename></cell>
+      <cell role="data"><term>Gunner 1</term></cell>
+      <cell role="data"><term>T/Sgt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__7637">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__27234">
+              <cell role="data"><term>wurde aufgegriffen in</term></cell>
+              <cell role="data"/>
+              <cell role="data"><rs type="place" ref="#place__167">Wien</rs></cell>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__27236">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__27057">Dulag Luft Wetzlar</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31580">Frankfurt am Main</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__36170">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__37418">Kriegsgefangenensammelstelle</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__37419">Mást</rs></cell>
+              <cell role="data"><date when="1945-02-15">1945-02-15</date></cell>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__36180">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__36487">Spital</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__7638" role="data">
+      <cell role="data"><idno>7638</idno></cell>
+      <cell role="data"><idno>O-828510</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__7638">Pilcher</rs></surname></cell>
+      <cell role="data"><forename type="first">Zenas</forename></cell>
+      <cell role="data"><forename type="middle">H.</forename></cell>
+      <cell role="data"><term>Pilot</term></cell>
+      <cell role="data"><term>1st Lt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__7638">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__27237">
+              <cell role="data"><term>wurde aufgegriffen in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__27219">Gefangennahme: Wien</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__167">Wien</rs></cell>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__27239">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__27057">Dulag Luft Wetzlar</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31580">Frankfurt am Main</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__36171">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__12246">Dulag 12</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__32489">Groß-Tychow</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__36181">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__12595">Fliegerhorst Parndorf</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__720">Parndorf</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__7639" role="data">
+      <cell role="data"><idno>7639</idno></cell>
+      <cell role="data"><idno>32977558</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__7639">Terry</rs></surname></cell>
+      <cell role="data"><forename type="first">Stanley</forename></cell>
+      <cell role="data"><forename type="middle">I.</forename></cell>
+      <cell role="data"><term>Gunner 2</term></cell>
+      <cell role="data"><term>Sgt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__7639">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__27240">
+              <cell role="data"><term>wurde aufgegriffen in</term></cell>
+              <cell role="data"/>
+              <cell role="data"><rs type="place" ref="#place__37437">Pachfurth</rs></cell>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__27242">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__27057">Dulag Luft Wetzlar</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31580">Frankfurt am Main</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__36172">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__35516">Aspern</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__36182">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__12595">Fliegerhorst Parndorf</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__720">Parndorf</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__7640" role="data">
+      <cell role="data"><idno>7640</idno></cell>
+      <cell role="data"><idno>37558125</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__7640">Thomas</rs></surname></cell>
+      <cell role="data"><forename type="first">John</forename></cell>
+      <cell role="data"><forename type="middle">A.</forename></cell>
+      <cell role="data"><term>Gunner 3</term></cell>
+      <cell role="data"><term>Sgt</term></cell>
+      <cell role="data"><term>0</term></cell>
+      <cell role="data"><term>Getötet</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__7640">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__27243">
+              <cell role="data"><term>starb in</term></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__27245">
+              <cell role="data"><term>wurde begraben in</term></cell>
+              <cell role="data"/>
+              <cell role="data"><rs type="place" ref="#place__37439">Andlersdorf</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__7641" role="data">
+      <cell role="data"><idno>7641</idno></cell>
+      <cell role="data"><idno>37728357</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__7641">Woltje</rs></surname></cell>
+      <cell role="data"><forename type="first">Charles</forename></cell>
+      <cell role="data"><forename type="middle">E.</forename></cell>
+      <cell role="data"><term>Gunner 7</term></cell>
+      <cell role="data"><term>Sgt</term></cell>
+      <cell role="data"><term>0</term></cell>
+      <cell role="data"><term>Getötet</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__7641">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__27246">
+              <cell role="data"><term>wurde begraben in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__27219">Gefangennahme: Wien</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__37439">Andlersdorf</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__27248">
+              <cell role="data"><term>starb in</term></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+              <cell role="data"><date when="1945-02-13">1945-02-13</date></cell>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__7642" role="data">
+      <cell role="data"><idno>7642</idno></cell>
+      <cell role="data"><idno>33502141</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__7642">Ziegler</rs></surname></cell>
+      <cell role="data"><forename type="first">Walter</forename></cell>
+      <cell role="data"><forename type="middle">B.</forename></cell>
+      <cell role="data"><term>Gunner 6</term></cell>
+      <cell role="data"><term>Sgt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__7642">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__27249">
+              <cell role="data"><term>wurde aufgegriffen in</term></cell>
+              <cell role="data"/>
+              <cell role="data"><rs type="place" ref="#place__37436">Regelsbrunn</rs></cell>
+              <cell role="data"><date when="1945-02-14">1945-02-14</date></cell>
+              <cell role="data"><date when="1945-02-14">1945-02-14</date></cell>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__27251">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__27057">Dulag Luft Wetzlar</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31580">Frankfurt am Main</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__36175">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__35516">Aspern</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__36185">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__12595">Fliegerhorst Parndorf</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__720">Parndorf</rs></cell>
+              <cell role="data"><date when="1945-02-14">1945-02-14</date></cell>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+  </table>
+</div></div></body>
+      <back><listPerson><person xml:id="person__7633">
+  <persName>
+    <forename>Cletus</forename>
+    <forename type="middle">E.</forename>
+    <surname>Glesener</surname>
+  </persName>
+</person><person xml:id="person__7634">
+  <persName>
+    <forename>Edward</forename>
+    <forename type="middle">L.</forename>
+    <surname>Lauffer</surname>
+  </persName>
+</person><person xml:id="person__7635">
+  <persName>
+    <forename>Brooks</forename>
+    <surname>Lee</surname>
+  </persName>
+</person><person xml:id="person__7636">
+  <persName>
+    <forename>Athas</forename>
+    <forename type="middle">D.</forename>
+    <surname>Liacos</surname>
+  </persName>
+</person><person xml:id="person__7637">
+  <persName>
+    <forename>James</forename>
+    <forename type="middle">H.</forename>
+    <surname>McCreary</surname>
+  </persName>
+</person><person xml:id="person__7638">
+  <persName>
+    <forename>Zenas</forename>
+    <forename type="middle">H.</forename>
+    <surname>Pilcher</surname>
+  </persName>
+</person><person xml:id="person__7639">
+  <persName>
+    <forename>Stanley</forename>
+    <forename type="middle">I.</forename>
+    <surname>Terry</surname>
+  </persName>
+</person><person xml:id="person__7640">
+  <persName>
+    <forename>John</forename>
+    <forename type="middle">A.</forename>
+    <surname>Thomas</surname>
+  </persName>
+</person><person xml:id="person__7641">
+  <persName>
+    <forename>Charles</forename>
+    <forename type="middle">E.</forename>
+    <surname>Woltje</surname>
+  </persName>
+</person><person xml:id="person__7642">
+  <persName>
+    <forename>Walter</forename>
+    <forename type="middle">B.</forename>
+    <surname>Ziegler</surname>
+  </persName>
+</person></listPerson><listPlace><place xml:id="place__37439">
+  <placeName>Andlersdorf</placeName>
+  <location>
+    <geo>46.716670000000 14.916670000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2782546</idno>
+</place><place xml:id="place__37436">
+  <placeName>Regelsbrunn</placeName>
+  <location>
+    <geo>48.100000000000 16.766670000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2767799</idno>
+</place><place xml:id="place__924">
+  <placeName>Orth an der Donau</placeName>
+  <location>
+    <geo>48.145240000000 16.701450000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2769410</idno>
+</place><place xml:id="place__618">
+  <placeName>Lobau</placeName>
+  <location>
+    <geo>48.183330000000 16.500000000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2772364</idno>
+</place><place xml:id="place__720">
+  <placeName>Parndorf</placeName>
+  <location>
+    <geo>47.999630000000 16.860490000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2769242</idno>
+</place><place xml:id="place__37437">
+  <placeName>Pachfurth</placeName>
+  <location>
+    <geo>48.050000000000 16.816670000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2769302</idno>
+</place><place xml:id="place__31581">
+  <placeName>Żagań</placeName>
+  <placeName type="alt"/>
+  <location>
+    <geo>51.617590000000 15.314860000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/3080944</idno>
+</place><place xml:id="place__31580">
+  <placeName>Frankfurt am Main</placeName>
+  <location>
+    <geo>50.115520000000 8.684170000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2925533</idno>
+</place><place xml:id="place__167">
+  <placeName>Wien</placeName>
+  <location>
+    <geo>48.208490000000 16.372080000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2761369</idno>
+</place><place xml:id="place__32489">
+  <placeName>Groß-Tychow</placeName>
+  <location>
+    <geo>53.927740000000 16.257710000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/3082916</idno>
+</place><place xml:id="place__37419">
+  <placeName>Mást</placeName>
+  <location>
+    <geo>48.264480000000 17.030530000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/3058765</idno>
+</place></listPlace><listOrg><org xml:id="org__35516">
+  <orgName>Aspern</orgName>
+</org><org xml:id="org__36487">
+  <orgName>Spital</orgName>
+</org><org xml:id="org__37418">
+  <orgName>Kriegsgefangenensammelstelle</orgName>
+</org><org xml:id="org__12246">
+  <orgName>Dulag 12</orgName>
+</org><org xml:id="org__27057">
+  <orgName>Dulag Luft Wetzlar</orgName>
+</org><org xml:id="org__12595">
+  <orgName>Fliegerhorst Parndorf</orgName>
+</org><org xml:id="org__27219">
+  <orgName>Gefangennahme: Wien</orgName>
+</org><org xml:id="org__10513">
+  <orgName>Stalag Luft III</orgName>
+</org><org xml:id="org__108">
+  <orgName>419th Bomb Squadron</orgName>
+  <orgName type="bomb_group">301st Bomb Group</orgName>
+  <orgName type="airforce">15th USAAF</orgName>
+</org></listOrg></back>
+  </text>
+</TEI>

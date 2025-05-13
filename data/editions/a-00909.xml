@@ -1,0 +1,733 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://daacda.acdh.oeaw.ac.at" xml:id="bomber__909.xml" prev="https://daacda.acdh.oeaw.ac.at/data/bomber__908.xml" next="https://daacda.acdh.oeaw.ac.at/data/bomber__910.xml">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">44-41091 (MARC: 13190)</title>
+            <title type="sub">Downed Allied Air Crew Database Austria</title>
+            <funder>
+                <orgName key="https://d-nb.info/gnd/1090414722">
+                    Österreichische Akademie der Wissenschaften
+                </orgName>
+            </funder>
+            <respStmt>
+               <resp>Projektleitung, Datenerhebung</resp>
+               <persName key="https://d-nb.info/gnd/143373765">
+                  <forename>Georg</forename>
+                  <surname>Hoffmann</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenerhebung</resp>
+               <persName key="https://d-nb.info/gnd/143174754">
+                  <forename>Nicole-Melanie</forename>
+                  <surname>Goll</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenkuratierung</resp>
+               <persName key="https://orcid.org/0000-0001-7081-2280">
+                  <forename>Martin</forename>
+                  <surname>Kirnbauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenmodellierung, Aufsetzen einer Datenbankapplikation zur Datenerhebung und Datenkonvertierung nach TEI</resp>
+               <persName key="https://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <persName key="https://d-nb.info/gnd/143373765">
+                  <forename>Georg</forename>
+                  <surname>Hoffmann</surname>
+               </persName>
+            </authority>
+            <availability>
+               <licence target="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0/">CC-BY 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+              <msIdentifier>
+                <institution>
+                  <orgName>National Archives and Records Administration</orgName>
+                  <idno type="VIAF">162565459</idno>
+                </institution>
+                <collection>Record Group 92</collection>
+              <idno>Missing Air Crew Reports No.: 13190</idno></msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+       <ab>
+Der vorliegende Datensatz wurde von Georg Hoffmann, Nicole-Melanie Goll sowie Martin Kirnbauer erhoben und mittels einer von Peter Andorfer entwickelten Python/Django Web-Applikation in das vorliegende TEI Dokument transformiert. Die in diesem TEI Dokument präsentierten Daten basieren vornehmlich aus dem Archivbestand National Archives and Records Administration College Park NARA, Record Group 92 und wurden ergänzt mit Quellen aus dem Bestand NARA, Record Groups 18, 153, 242, 498, 549 sowie The National Archives Kew TNA, AIR 10, 20, 23, 49 sowie WO 204, 219
+</ab>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body><div type="main"><head>44-41091 (MARC: 13190)</head><div xml:id="bomber">
+   <table xml:id="bomber_table">
+      <head xml:id="bomber_table_head">Informationen zum Flugzeug: 44-41091 (MARC: 13190)</head>
+      <row role="label">
+         <cell role="label"><choice><abbr>MACR-Nr</abbr><expan>The Missing Air Crew Reports No.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugtyp</abbr><expan>The type of the plane.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugnr</abbr><expan>The plane ID.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugname</abbr><expan>The name of the plane.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Staffel</abbr><expan>The squadron the bomber belongs to.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Datum Absturz</abbr><expan>The date of the bomber's crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Absturzursache</abbr><expan>The reason for the bomber's crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Zielort</abbr><expan>The place the bomber targeted.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Absturzort</abbr><expan>The place where the bomber crashed.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Koordinaten der letzten Sichtung</abbr><expan>Coordinates of the site the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Ort</abbr><expan>The city or village the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Land</abbr><expan>The country or county the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Uhrzeit</abbr><expan>Time of the day the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Uhrzeit Absturz</abbr><expan>Time of the crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Kommentar</abbr><expan>Comments.</expan></choice></cell>
+      </row>
+      <row role="data">
+         <cell role="data"><idno>13190</idno></cell>
+         <cell role="data"><rs type="concept" ref="#concept_b-24j-12">B-24J</rs></cell>
+         <cell role="data"><idno>44-41091</idno></cell>
+         <cell role="data"><name/></cell>
+         <cell role="data"><rs type="org" ref="#org__239">764th Bomb Squadron</rs></cell>
+        <cell role="data"><date when-iso="1945-03-23">1945-03-23</date></cell>
+         <cell role="data"><rs type="concept" ref="#concept_flak-13">Flak</rs></cell>
+         <cell role="data"><rs type="place" ref="#place__167"><placeName>Wien</placeName></rs> </cell>
+         <cell role="data"><rs type="place" ref="#place__1044"><placeName>Schönfeld bei Gänserndorf</placeName></rs> </cell>
+         <cell role="data"><geo>48°15'N, 16°35'E</geo></cell>
+         <cell role="data"><placeName>östlich Wien</placeName></cell>
+         <cell role="data"><placeName/></cell>
+         <cell role="data"><time/></cell>
+         <cell role="data"><time/></cell>
+         <cell role="data"/>
+      </row>
+   </table>
+</div><div xml:id="crew">
+  <table xml:id="crew_table">
+    <head xml:id="crew_table_head">Die Crew des Flugzeugs 44-41091 (MARC: 13190)</head>
+    <row role="label">
+      <cell role="label"><choice><abbr>Interne ID</abbr><expan>Identifier of the legacy database</expan></choice></cell>
+      <cell role="label"><choice><abbr>Kennnummer</abbr><expan>The number identifying the person</expan></choice></cell>
+      <cell role="label"><choice><abbr>Nachname</abbr><expan>The person's second name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Vorname</abbr><expan>The person's first name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Mittelname</abbr><expan>The person's middle name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Funktion im Flugzeug</abbr><expan>The person's function inside the bomber</expan></choice></cell>
+      <cell role="label"><choice><abbr>Dienstgrad</abbr><expan>The person's rank</expan></choice></cell>
+      <cell role="label"><choice><abbr>Eintrag MACR</abbr><expan>The person's stated destiny according to MACR</expan></choice></cell>
+      <cell role="label"><choice><abbr>Schicksal</abbr><expan>The person's checked destiny</expan></choice></cell>
+      <cell role="label"><choice><abbr>Schicksal genau</abbr><expan>The person's MIA status</expan></choice></cell>
+      <cell role="label"><choice><abbr>Stationen der Gefangenschaft</abbr><expan>Institutions and Locations the Person was kept</expan></choice></cell>
+    </row>
+    <row xml:id="crew_table_row__8494" role="data">
+      <cell role="data"><idno>8494</idno></cell>
+      <cell role="data"><idno>O-825082</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__8494">Baird</rs></surname></cell>
+      <cell role="data"><forename type="first">William</forename></cell>
+      <cell role="data"><forename type="middle">R.</forename></cell>
+      <cell role="data"><term>Pilot</term></cell>
+      <cell role="data"><term>1st Lt</term></cell>
+      <cell role="data"><term>KIA</term></cell>
+      <cell role="data"><term>Getötet</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__8494">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__28843">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28842">Wien/Aspern: Mögliche Misshandlung (Wache zeigte einem Flieger die Trümmer des Flugzeuges und gab ihm zu verstehen dass noch eine Leiche im Flugzeug läge. Als dieser Flieger hinstürmte stach die Wach</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28844">
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28846">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28845">München: Zug von Wien nach München (16 Häftlinge; inkl. 9 Mann der Besatzung). Ein Feldwebel der Luftwaffe bewachte die Gefangenen und behandelte sie sehr gut.</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__381">München</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28847">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__12565">Stalag VII-A</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31586">Moosburg</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__8495" role="data">
+      <cell role="data"><idno>8495</idno></cell>
+      <cell role="data"><idno>O-685555</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__8495">Davis</rs></surname></cell>
+      <cell role="data"><forename type="first">Richard</forename></cell>
+      <cell role="data"><forename type="middle">C.</forename></cell>
+      <cell role="data"><term>Navigator</term></cell>
+      <cell role="data"><term>1st Lt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__8495">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__28848">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28842">Wien/Aspern: Mögliche Misshandlung (Wache zeigte einem Flieger die Trümmer des Flugzeuges und gab ihm zu verstehen dass noch eine Leiche im Flugzeug läge. Als dieser Flieger hinstürmte stach die Wach</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28849">
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28850">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28845">München: Zug von Wien nach München (16 Häftlinge; inkl. 9 Mann der Besatzung). Ein Feldwebel der Luftwaffe bewachte die Gefangenen und behandelte sie sehr gut.</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__381">München</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28851">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__12565">Stalag VII-A</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31586">Moosburg</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__8496" role="data">
+      <cell role="data"><idno>8496</idno></cell>
+      <cell role="data"><idno>11081714</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__8496">Forster</rs></surname></cell>
+      <cell role="data"><forename type="first">John</forename></cell>
+      <cell role="data"><forename type="middle">G.</forename></cell>
+      <cell role="data"><term>Gunner 1</term></cell>
+      <cell role="data"><term>S/Sgt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__8496">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__28852">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28842">Wien/Aspern: Mögliche Misshandlung (Wache zeigte einem Flieger die Trümmer des Flugzeuges und gab ihm zu verstehen dass noch eine Leiche im Flugzeug läge. Als dieser Flieger hinstürmte stach die Wach</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28853">
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28854">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28845">München: Zug von Wien nach München (16 Häftlinge; inkl. 9 Mann der Besatzung). Ein Feldwebel der Luftwaffe bewachte die Gefangenen und behandelte sie sehr gut.</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__381">München</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28855">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__12565">Stalag VII-A</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31586">Moosburg</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__8497" role="data">
+      <cell role="data"><idno>8497</idno></cell>
+      <cell role="data"><idno>O-2057382</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__8497">Olson</rs></surname></cell>
+      <cell role="data"><forename type="first">Dwight</forename></cell>
+      <cell role="data"><forename type="middle">B.</forename></cell>
+      <cell role="data"><term>Co-Pilot</term></cell>
+      <cell role="data"><term>2nd Lt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__8497">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__28856">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28842">Wien/Aspern: Mögliche Misshandlung (Wache zeigte einem Flieger die Trümmer des Flugzeuges und gab ihm zu verstehen dass noch eine Leiche im Flugzeug läge. Als dieser Flieger hinstürmte stach die Wach</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28857">
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28858">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28845">München: Zug von Wien nach München (16 Häftlinge; inkl. 9 Mann der Besatzung). Ein Feldwebel der Luftwaffe bewachte die Gefangenen und behandelte sie sehr gut.</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__381">München</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28859">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__12565">Stalag VII-A</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31586">Moosburg</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__8498" role="data">
+      <cell role="data"><idno>8498</idno></cell>
+      <cell role="data"><idno>32976665</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__8498">Rice</rs></surname></cell>
+      <cell role="data"><forename type="first">John</forename></cell>
+      <cell role="data"><forename type="middle">W.</forename></cell>
+      <cell role="data"><term>Gunner 2</term></cell>
+      <cell role="data"><term>S/Sgt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__8498">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__28860">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28842">Wien/Aspern: Mögliche Misshandlung (Wache zeigte einem Flieger die Trümmer des Flugzeuges und gab ihm zu verstehen dass noch eine Leiche im Flugzeug läge. Als dieser Flieger hinstürmte stach die Wach</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28861">
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28862">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28845">München: Zug von Wien nach München (16 Häftlinge; inkl. 9 Mann der Besatzung). Ein Feldwebel der Luftwaffe bewachte die Gefangenen und behandelte sie sehr gut.</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__381">München</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28863">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__12565">Stalag VII-A</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31586">Moosburg</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__8499" role="data">
+      <cell role="data"><idno>8499</idno></cell>
+      <cell role="data"><idno>33897008</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__8499">Sanders</rs></surname></cell>
+      <cell role="data"><forename type="first">William</forename></cell>
+      <cell role="data"><forename type="middle">F.</forename></cell>
+      <cell role="data"><term>Gunner 4</term></cell>
+      <cell role="data"><term>S/Sgt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__8499">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__28864">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28842">Wien/Aspern: Mögliche Misshandlung (Wache zeigte einem Flieger die Trümmer des Flugzeuges und gab ihm zu verstehen dass noch eine Leiche im Flugzeug läge. Als dieser Flieger hinstürmte stach die Wach</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28865">
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28866">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28845">München: Zug von Wien nach München (16 Häftlinge; inkl. 9 Mann der Besatzung). Ein Feldwebel der Luftwaffe bewachte die Gefangenen und behandelte sie sehr gut.</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__381">München</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28867">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__12565">Stalag VII-A</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31586">Moosburg</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__8500" role="data">
+      <cell role="data"><idno>8500</idno></cell>
+      <cell role="data"><idno>39548073</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__8500">Sligar</rs></surname></cell>
+      <cell role="data"><forename type="first">Glenn</forename></cell>
+      <cell role="data"><forename type="middle">A.</forename></cell>
+      <cell role="data"><term>Gunner 3</term></cell>
+      <cell role="data"><term>S/Sgt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__8500">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__28868">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28842">Wien/Aspern: Mögliche Misshandlung (Wache zeigte einem Flieger die Trümmer des Flugzeuges und gab ihm zu verstehen dass noch eine Leiche im Flugzeug läge. Als dieser Flieger hinstürmte stach die Wach</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28869">
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28870">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28845">München: Zug von Wien nach München (16 Häftlinge; inkl. 9 Mann der Besatzung). Ein Feldwebel der Luftwaffe bewachte die Gefangenen und behandelte sie sehr gut.</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__381">München</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28871">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__12565">Stalag VII-A</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31586">Moosburg</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__8501" role="data">
+      <cell role="data"><idno>8501</idno></cell>
+      <cell role="data"><idno>18009272</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__8501">Smith</rs></surname></cell>
+      <cell role="data"><forename type="first">Marlin</forename></cell>
+      <cell role="data"><forename type="middle">R.</forename></cell>
+      <cell role="data"><term>Gunner 6</term></cell>
+      <cell role="data"><term>S/Sgt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__8501">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__28872">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28842">Wien/Aspern: Mögliche Misshandlung (Wache zeigte einem Flieger die Trümmer des Flugzeuges und gab ihm zu verstehen dass noch eine Leiche im Flugzeug läge. Als dieser Flieger hinstürmte stach die Wach</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28873">
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28874">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28845">München: Zug von Wien nach München (16 Häftlinge; inkl. 9 Mann der Besatzung). Ein Feldwebel der Luftwaffe bewachte die Gefangenen und behandelte sie sehr gut.</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__381">München</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28875">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__12565">Stalag VII-A</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31586">Moosburg</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__8502" role="data">
+      <cell role="data"><idno>8502</idno></cell>
+      <cell role="data"><idno>16080864</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__8502">Vaitkunas</rs></surname></cell>
+      <cell role="data"><forename type="first">William</forename></cell>
+      <cell role="data"><forename type="middle">R.</forename></cell>
+      <cell role="data"><term>Gunner 5</term></cell>
+      <cell role="data"><term>S/Sgt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__8502">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__28876">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28842">Wien/Aspern: Mögliche Misshandlung (Wache zeigte einem Flieger die Trümmer des Flugzeuges und gab ihm zu verstehen dass noch eine Leiche im Flugzeug läge. Als dieser Flieger hinstürmte stach die Wach</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28877">
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28878">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28845">München: Zug von Wien nach München (16 Häftlinge; inkl. 9 Mann der Besatzung). Ein Feldwebel der Luftwaffe bewachte die Gefangenen und behandelte sie sehr gut.</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__381">München</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28879">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__12565">Stalag VII-A</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31586">Moosburg</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+    <row xml:id="crew_table_row__8503" role="data">
+      <cell role="data"><idno>8503</idno></cell>
+      <cell role="data"><idno>O-773028</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__8503">Wenzlik</rs></surname></cell>
+      <cell role="data"><forename type="first">Edward</forename></cell>
+      <cell role="data"><forename type="middle">T.</forename></cell>
+      <cell role="data"><term>Bombardier</term></cell>
+      <cell role="data"><term>2nd Lt</term></cell>
+      <cell role="data"><term>Rtd</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__8503">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__28880">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28842">Wien/Aspern: Mögliche Misshandlung (Wache zeigte einem Flieger die Trümmer des Flugzeuges und gab ihm zu verstehen dass noch eine Leiche im Flugzeug läge. Als dieser Flieger hinstürmte stach die Wach</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28881">
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28882">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__28845">München: Zug von Wien nach München (16 Häftlinge; inkl. 9 Mann der Besatzung). Ein Feldwebel der Luftwaffe bewachte die Gefangenen und behandelte sie sehr gut.</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__381">München</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__28883">
+              <cell role="data"/>
+              <cell role="data"><rs type="org" ref="#org__12565">Stalag VII-A</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31586">Moosburg</rs></cell>
+              <cell role="data"/>
+              <cell role="data"/>
+            </row>
+          </table>
+      </cell>
+    </row>
+  </table>
+</div></div></body>
+      <back><listPerson><person xml:id="person__8494">
+  <persName>
+    <forename>William</forename>
+    <forename type="middle">R.</forename>
+    <surname>Baird</surname>
+  </persName>
+</person><person xml:id="person__8495">
+  <persName>
+    <forename>Richard</forename>
+    <forename type="middle">C.</forename>
+    <surname>Davis</surname>
+  </persName>
+</person><person xml:id="person__8496">
+  <persName>
+    <forename>John</forename>
+    <forename type="middle">G.</forename>
+    <surname>Forster</surname>
+  </persName>
+</person><person xml:id="person__8497">
+  <persName>
+    <forename>Dwight</forename>
+    <forename type="middle">B.</forename>
+    <surname>Olson</surname>
+  </persName>
+</person><person xml:id="person__8498">
+  <persName>
+    <forename>John</forename>
+    <forename type="middle">W.</forename>
+    <surname>Rice</surname>
+  </persName>
+</person><person xml:id="person__8499">
+  <persName>
+    <forename>William</forename>
+    <forename type="middle">F.</forename>
+    <surname>Sanders</surname>
+  </persName>
+</person><person xml:id="person__8500">
+  <persName>
+    <forename>Glenn</forename>
+    <forename type="middle">A.</forename>
+    <surname>Sligar</surname>
+  </persName>
+</person><person xml:id="person__8501">
+  <persName>
+    <forename>Marlin</forename>
+    <forename type="middle">R.</forename>
+    <surname>Smith</surname>
+  </persName>
+</person><person xml:id="person__8502">
+  <persName>
+    <forename>William</forename>
+    <forename type="middle">R.</forename>
+    <surname>Vaitkunas</surname>
+  </persName>
+</person><person xml:id="person__8503">
+  <persName>
+    <forename>Edward</forename>
+    <forename type="middle">T.</forename>
+    <surname>Wenzlik</surname>
+  </persName>
+</person></listPerson><listPlace><place xml:id="place__1044">
+  <placeName>Schönfeld bei Gänserndorf</placeName>
+  <location>
+    <geo>48.265560000000 16.805000000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2765688</idno>
+</place><place xml:id="place__381">
+  <placeName>München</placeName>
+  <location>
+    <geo>48.137430000000 11.575490000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2867714</idno>
+</place><place xml:id="place__31586">
+  <placeName>Moosburg</placeName>
+  <location>
+    <geo>48.470890000000 11.938110000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2869449</idno>
+</place><place xml:id="place__167">
+  <placeName>Wien</placeName>
+  <location>
+    <geo>48.208490000000 16.372080000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2761369</idno>
+</place></listPlace><listOrg><org xml:id="org__28845">
+  <orgName>München: Zug von Wien nach München (16 Häftlinge; inkl. 9 Mann der Besatzung). Ein Feldwebel der Luftwaffe bewachte die Gefangenen und behandelte sie sehr gut.</orgName>
+</org><org xml:id="org__12565">
+  <orgName>Stalag VII-A</orgName>
+</org><org xml:id="org__28842">
+  <orgName>Wien/Aspern: Mögliche Misshandlung (Wache zeigte einem Flieger die Trümmer des Flugzeuges und gab ihm zu verstehen dass noch eine Leiche im Flugzeug läge. Als dieser Flieger hinstürmte stach die Wach</orgName>
+</org><org xml:id="org__239">
+  <orgName>764th Bomb Squadron</orgName>
+  <orgName type="bomb_group">461st Bomb Group</orgName>
+  <orgName type="airforce">15th USAAF</orgName>
+</org></listOrg></back>
+  </text>
+</TEI>

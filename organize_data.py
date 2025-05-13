@@ -1,6 +1,5 @@
 import glob
 import os
-import shutil
 import lxml.etree as ET
 from acdh_tei_pyutils.tei import TeiReader
 from acdh_tei_pyutils.utils import get_xmlid
@@ -10,7 +9,7 @@ indices = os.path.join("data", "indices")
 os.makedirs(editions, exist_ok=True)
 os.makedirs(indices, exist_ok=True)
 
-files = sorted(glob.glob("./*/*.xml"))
+files = sorted(glob.glob("./data/editions/*.xml"))
 template = "tei_template.xml"
 
 person_nodes = {}
@@ -27,10 +26,6 @@ for x in files:
     for y in doc.any_xpath(".//tei:place[@xml:id]"):
         xmlid = get_xmlid(y)
         place_nodes[xmlid] = y
-
-    filename = os.path.basename(x)
-    target = os.path.join(editions, filename)
-    shutil.copyfile(x, target)
 
 doc = TeiReader(template)
 title = doc.any_xpath(".//tei:title[1]")[0]

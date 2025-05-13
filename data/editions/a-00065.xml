@@ -1,0 +1,274 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://daacda.acdh.oeaw.ac.at" xml:id="bomber__65.xml" prev="https://daacda.acdh.oeaw.ac.at/data/bomber__64.xml" next="https://daacda.acdh.oeaw.ac.at/data/bomber__66.xml">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">42-12815 (MARC: 2703)</title>
+            <title type="sub">Downed Allied Air Crew Database Austria</title>
+            <funder>
+                <orgName key="https://d-nb.info/gnd/1090414722">
+                    Österreichische Akademie der Wissenschaften
+                </orgName>
+            </funder>
+            <respStmt>
+               <resp>Projektleitung, Datenerhebung</resp>
+               <persName key="https://d-nb.info/gnd/143373765">
+                  <forename>Georg</forename>
+                  <surname>Hoffmann</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenerhebung</resp>
+               <persName key="https://d-nb.info/gnd/143174754">
+                  <forename>Nicole-Melanie</forename>
+                  <surname>Goll</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenkuratierung</resp>
+               <persName key="https://orcid.org/0000-0001-7081-2280">
+                  <forename>Martin</forename>
+                  <surname>Kirnbauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenmodellierung, Aufsetzen einer Datenbankapplikation zur Datenerhebung und Datenkonvertierung nach TEI</resp>
+               <persName key="https://d-nb.info/gnd/1043833846">
+                  <forename>Peter</forename>
+                  <surname>Andorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <persName key="https://d-nb.info/gnd/143373765">
+                  <forename>Georg</forename>
+                  <surname>Hoffmann</surname>
+               </persName>
+            </authority>
+            <availability>
+               <licence target="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0/">CC-BY 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+              <msIdentifier>
+                <institution>
+                  <orgName>National Archives and Records Administration</orgName>
+                  <idno type="VIAF">162565459</idno>
+                </institution>
+                <collection>Record Group 92</collection>
+              <idno>Missing Air Crew Reports No.: 2703</idno></msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+       <ab>
+Der vorliegende Datensatz wurde von Georg Hoffmann, Nicole-Melanie Goll sowie Martin Kirnbauer erhoben und mittels einer von Peter Andorfer entwickelten Python/Django Web-Applikation in das vorliegende TEI Dokument transformiert. Die in diesem TEI Dokument präsentierten Daten basieren vornehmlich aus dem Archivbestand National Archives and Records Administration College Park NARA, Record Group 92 und wurden ergänzt mit Quellen aus dem Bestand NARA, Record Groups 18, 153, 242, 498, 549 sowie The National Archives Kew TNA, AIR 10, 20, 23, 49 sowie WO 204, 219
+</ab>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body><div type="main"><head>42-12815 (MARC: 2703)</head><div xml:id="bomber">
+   <table xml:id="bomber_table">
+      <head xml:id="bomber_table_head">Informationen zum Flugzeug: 42-12815 (MARC: 2703)</head>
+      <row role="label">
+         <cell role="label"><choice><abbr>MACR-Nr</abbr><expan>The Missing Air Crew Reports No.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugtyp</abbr><expan>The type of the plane.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugnr</abbr><expan>The plane ID.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Flugzeugname</abbr><expan>The name of the plane.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Staffel</abbr><expan>The squadron the bomber belongs to.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Datum Absturz</abbr><expan>The date of the bomber's crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Absturzursache</abbr><expan>The reason for the bomber's crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Zielort</abbr><expan>The place the bomber targeted.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Absturzort</abbr><expan>The place where the bomber crashed.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Koordinaten der letzten Sichtung</abbr><expan>Coordinates of the site the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Ort</abbr><expan>The city or village the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Land</abbr><expan>The country or county the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Sichtung-Uhrzeit</abbr><expan>Time of the day the bomber was last seen at.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Uhrzeit Absturz</abbr><expan>Time of the crash.</expan></choice></cell>
+         <cell role="label"><choice><abbr>Kommentar</abbr><expan>Comments.</expan></choice></cell>
+      </row>
+      <row role="data">
+         <cell role="data"><idno>2703</idno></cell>
+         <cell role="data"><rs type="concept" ref="#concept_p-38-6">P-38</rs></cell>
+         <cell role="data"><idno>42-12815</idno></cell>
+         <cell role="data"><name/></cell>
+         <cell role="data"><rs type="org" ref="#org__131">95th Fighter Squadron</rs></cell>
+        <cell role="data"><date when-iso="1944-02-24">1944-02-24</date></cell>
+         <cell role="data"><rs type="concept" ref="#concept_jager-2">Jäger</rs></cell>
+         <cell role="data"><rs type="place" ref="#place__73"><placeName>Steyr</placeName></rs> </cell>
+         <cell role="data"><rs type="place" ref="#place__39558"><placeName>Mayrwinkl</placeName></rs> </cell>
+         <cell role="data"><geo>47°43'N, 14°20'E</geo></cell>
+         <cell role="data"><placeName>Windischgarsten</placeName></cell>
+         <cell role="data"><placeName/></cell>
+         <cell role="data"><time/></cell>
+         <cell role="data"><time/></cell>
+         <cell role="data">Gearhart sollte am 24. Februar 1944 einen Angriff auf Steyr fliegen. Seine Maschine wurde von einer Focke-Wulf Fw 190 in einen Luftkampf verwickelt und abgeschossen. Gearhart konnte sich mit dem Fallschirm zu Boden retten.</cell>
+      </row>
+   </table>
+</div><div xml:id="crew">
+  <table xml:id="crew_table">
+    <head xml:id="crew_table_head">Die Crew des Flugzeugs 42-12815 (MARC: 2703)</head>
+    <row role="label">
+      <cell role="label"><choice><abbr>Interne ID</abbr><expan>Identifier of the legacy database</expan></choice></cell>
+      <cell role="label"><choice><abbr>Kennnummer</abbr><expan>The number identifying the person</expan></choice></cell>
+      <cell role="label"><choice><abbr>Nachname</abbr><expan>The person's second name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Vorname</abbr><expan>The person's first name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Mittelname</abbr><expan>The person's middle name</expan></choice></cell>
+      <cell role="label"><choice><abbr>Funktion im Flugzeug</abbr><expan>The person's function inside the bomber</expan></choice></cell>
+      <cell role="label"><choice><abbr>Dienstgrad</abbr><expan>The person's rank</expan></choice></cell>
+      <cell role="label"><choice><abbr>Eintrag MACR</abbr><expan>The person's stated destiny according to MACR</expan></choice></cell>
+      <cell role="label"><choice><abbr>Schicksal</abbr><expan>The person's checked destiny</expan></choice></cell>
+      <cell role="label"><choice><abbr>Schicksal genau</abbr><expan>The person's MIA status</expan></choice></cell>
+      <cell role="label"><choice><abbr>Stationen der Gefangenschaft</abbr><expan>Institutions and Locations the Person was kept</expan></choice></cell>
+    </row>
+    <row xml:id="crew_table_row__1697" role="data">
+      <cell role="data"><idno>1697</idno></cell>
+      <cell role="data"><idno>O-752114</idno></cell>
+      <cell role="data"><surname><rs type="person" ref="#person__1697">Gearhart</rs></surname></cell>
+      <cell role="data"><forename type="first">George</forename></cell>
+      <cell role="data"><forename type="middle">M.</forename></cell>
+      <cell role="data"><term>Pilot</term></cell>
+      <cell role="data"><term>2nd Lt</term></cell>
+      <cell role="data"><term>POW</term></cell>
+      <cell role="data"><term>Überlebt</term></cell>
+      <cell role="data"/>
+      <cell role="data">
+        <table xml:id="crew_table_stations__1697">
+          <row role="label">
+            <cell role="label"><choice><abbr>Art der Verbindung</abbr><expan>The type of the relation between Place/Institution and the Person</expan></choice></cell>
+            <cell role="label"><choice><abbr>Institution</abbr><expan>The Institution the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>Ort</abbr><expan>The Location the Person was kept</expan></choice></cell>
+            <cell role="label"><choice><abbr>von</abbr><expan>start date</expan></choice></cell>
+            <cell role="label"><choice><abbr>bis</abbr><expan>end date</expan></choice></cell>
+          </row>
+            <row role="data" xml:id="crew_table_stations_row__36459">
+              <cell role="data"><term>wurde aufgegriffen in</term></cell>
+              <cell role="data"/>
+              <cell role="data"><rs type="place" ref="#place__132">Windischgarsten</rs></cell>
+              <cell role="data"><date when="1944-02-24">1944-02-24</date></cell>
+              <cell role="data"><date when="1944-02-24">1944-02-24</date></cell>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__39560">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__39559">Krankenhaus Kirchdorf an der Krems</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__32974">Kirchdorf an der Krems</rs></cell>
+              <cell role="data"><date when="1944-02-26">1944-02-26</date></cell>
+              <cell role="data"><date when="1944-03-02">1944-03-02</date></cell>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__39561">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__36758">Luftwaffen-Lazarett Wels</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__87">Wels</rs></cell>
+              <cell role="data"><date when="1944-03-02">1944-03-02</date></cell>
+              <cell role="data"><date when="1944-03-20">1944-03-20</date></cell>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__39562">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__9323">Dulag Luft Oberursel</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__31580">Frankfurt am Main</rs></cell>
+              <cell role="data"><date when="1944-03-20">1944-03-20</date></cell>
+              <cell role="data"><date when="1944-04-10">1944-04-10</date></cell>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__39564">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__29512">Stalag IX-C</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__39563">Obermaßfeld</rs></cell>
+              <cell role="data"><date when="1944-04-20">1944-04-20</date></cell>
+              <cell role="data"><date when="1944-05-15">1944-05-15</date></cell>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__39566">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__29512">Stalag IX-C</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__39565">Meiningen</rs></cell>
+              <cell role="data"><date when="1944-04-15">1944-04-15</date></cell>
+              <cell role="data"><date when="1944-12-02">1944-12-02</date></cell>
+            </row>
+            <row role="data" xml:id="crew_table_stations_row__39568">
+              <cell role="data"><term>wurde inhaftiert in</term></cell>
+              <cell role="data"><rs type="org" ref="#org__36795">Stalag IV-D</rs></cell>
+              <cell role="data"><rs type="place" ref="#place__39567">Annaburg</rs></cell>
+              <cell role="data"><date when="1944-12-02">1944-12-02</date></cell>
+              <cell role="data"><date when="1945-01-14">1945-01-14</date></cell>
+            </row>
+          </table>
+      </cell>
+    </row>
+  </table>
+</div></div></body>
+      <back><listPerson><person xml:id="person__1697">
+  <persName>
+    <forename>George</forename>
+    <forename type="middle">M.</forename>
+    <surname>Gearhart</surname>
+  </persName>
+  <idno type="URL">https://www.findagrave.com/memorial/68817660</idno>
+</person></listPerson><listPlace><place xml:id="place__73">
+  <placeName>Steyr</placeName>
+  <location>
+    <geo>48.042740000000 14.421270000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2764359</idno>
+</place><place xml:id="place__39565">
+  <placeName>Meiningen</placeName>
+</place><place xml:id="place__39558">
+  <placeName>Mayrwinkl</placeName>
+  <location>
+    <geo>47.736610000000 14.329970000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2604138</idno>
+</place><place xml:id="place__39563">
+  <placeName>Obermaßfeld</placeName>
+</place><place xml:id="place__32495">
+  <placeName>Bad Sulza</placeName>
+  <location>
+    <geo>51.089290000000 11.624740000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2953330</idno>
+</place><place xml:id="place__32974">
+  <placeName>Kirchdorf an der Krems</placeName>
+  <location>
+    <geo>47.905580000000 14.122280000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2774390</idno>
+</place><place xml:id="place__31580">
+  <placeName>Frankfurt am Main</placeName>
+  <location>
+    <geo>50.115520000000 8.684170000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2925533</idno>
+</place><place xml:id="place__132">
+  <placeName>Windischgarsten</placeName>
+  <location>
+    <geo>47.722230000000 14.327550000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2761096</idno>
+</place><place xml:id="place__87">
+  <placeName>Wels</placeName>
+  <location>
+    <geo>48.166670000000 14.033330000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2761524</idno>
+</place><place xml:id="place__39567">
+  <placeName>Annaburg</placeName>
+  <location>
+    <geo>51.732980000000 13.047290000000</geo>
+  </location>
+  <idno subtype="geonames" type="URL">http://www.geonames.org/2955999</idno>
+</place></listPlace><listOrg><org xml:id="org__36758">
+  <orgName>Luftwaffen-Lazarett Wels</orgName>
+</org><org xml:id="org__36795">
+  <orgName>Stalag IV-D</orgName>
+</org><org xml:id="org__39559">
+  <orgName>Krankenhaus Kirchdorf an der Krems</orgName>
+</org><org xml:id="org__9323">
+  <orgName>Dulag Luft Oberursel</orgName>
+</org><org xml:id="org__29512">
+  <orgName>Stalag IX-C</orgName>
+</org><org xml:id="org__131">
+  <orgName>95th Fighter Squadron</orgName>
+  <orgName type="bomb_group">82nd Fighter Group</orgName>
+  <orgName type="airforce">15th USAAF</orgName>
+</org></listOrg></back>
+  </text>
+</TEI>

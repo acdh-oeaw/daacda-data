@@ -1,14 +1,9 @@
 # daadca-data
 
-TEI/XML data dump from the "Downed Allied Air Crew Database Austria" Project
+data was locally generated from https://daacda.acdh.oeaw.ac.at/ database and checked into this repo
 
-## get the data
-
-The data is stored in ARCHE, run
-
-```shell
-uv run dl_from_arche.py
+```python
+uv run organize_data.py
 ```
 
-to download the data
-
+derives list*.xml files and moved them into `data/indices/*`
