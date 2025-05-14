@@ -35,7 +35,7 @@ for x in org_doc.any_xpath(".//tei:org"):
     lookup_dict[label] = item
 
 
-doc = TeiReader("foo.xml")
+doc = TeiReader(listperson_file)
 
 for x in doc.any_xpath(".//tei:person//tei:orgName"):
     label = extract_fulltext(x)
