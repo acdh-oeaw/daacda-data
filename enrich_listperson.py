@@ -71,7 +71,6 @@ for x in doc.any_xpath(".//tei:person//tei:orgName"):
         x.getparent().getparent().append(bomb_group_a)
     if match["location"]:
         x.getparent().append(ET.fromstring(match["location"]))
-        print("foo")
 doc.tree_to_file(listperson_file)
 
 place_lookup = {}
