@@ -4,6 +4,10 @@ import lxml.etree as ET
 from acdh_tei_pyutils.tei import TeiReader
 from acdh_tei_pyutils.utils import get_xmlid
 
+
+print("make basic index files")
+
+
 editions = os.path.join("data", "editions")
 indices = os.path.join("data", "indices")
 os.makedirs(editions, exist_ok=True)

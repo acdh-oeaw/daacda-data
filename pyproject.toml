@@ -11,3 +11,8 @@ dependencies = [
     "rdflib>=7.1.4",
     "requests>=2.32.3",
 ]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+]
