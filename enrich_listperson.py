@@ -34,7 +34,6 @@ for x in org_doc.any_xpath(".//tei:org"):
         item["location"] = None
     lookup_dict[label] = item
 
-
 doc = TeiReader(listperson_file)
 
 for x in doc.any_xpath(".//tei:person//tei:orgName"):
@@ -70,7 +69,36 @@ for x in doc.any_xpath(".//tei:person//tei:orgName"):
         )
         bomb_group_org.text = bg_label
         x.getparent().getparent().append(bomb_group_a)
+    if match["location"]:
+        x.getparent().append(ET.fromstring(match["location"]))
+        print("foo")
+doc.tree_to_file(listperson_file)
 
+place_lookup = {}
+doc = TeiReader("./data/indices/listplace.xml")
+for x in doc.any_xpath(".//tei:place[@xml:id]"):
+    xmlid = get_xmlid(x)
+    label = x.xpath("./tei:placeName", namespaces=NSMAP)[0].text
+    item = {
+        "id": get_xmlid(x),
+    }
+    place_lookup[label] = item
+    try:
+        item["location"] = ET.tostring(
+            x.xpath("./tei:location", namespaces=NSMAP)[0]
+        ).decode("utf-8")
+    except IndexError:
+        item["location"] = None
+    place_lookup[label] = item
+
+doc = TeiReader(listperson_file)
+for x in doc.any_xpath(".//tei:person/tei:death/tei:placeName | .//tei:person/tei:birth/tei:placeName"):
+    label = extract_fulltext(x)
+    try:
+        match = place_lookup[label]
+    except KeyError:
+        continue
+    x.attrib["key"] = match["id"]
     if match["location"]:
         x.getparent().append(ET.fromstring(match["location"]))
 
